@@ -1,0 +1,4 @@
+[Thumbnailer Entry]
+TryExec=/public/home/jian_huang/.conda/envs/ct-dev/bin/gdk-pixbuf-thumbnailer
+Exec=/public/home/jian_huang/.conda/envs/ct-dev/bin/gdk-pixbuf-thumbnailer -s %s %u %o
+MimeType=image/svg+xml;image/svg+xml-compressed;

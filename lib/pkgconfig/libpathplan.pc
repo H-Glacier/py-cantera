@@ -1,0 +1,10 @@
+prefix=/public/home/jian_huang/.conda/envs/ct-dev
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libpathplan
+Description: Library for planning polyline and bezier paths around polygon obstacles
+Version: 12.2.1
+Libs: -L${libdir} -lpathplan
+Cflags: -I${includedir} -I${includedir}/graphviz

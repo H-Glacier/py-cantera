@@ -1,0 +1,10 @@
+prefix=/public/home/jian_huang/.conda/envs/ct-dev
+libdir=/public/home/jian_huang/.conda/envs/ct-dev/lib
+includedir=/public/home/jian_huang/.conda/envs/ct-dev/include
+
+Name: poppler
+Description: PDF rendering library
+Version: 24.09.0
+
+Libs: -L${libdir} -lpoppler
+Cflags: -I${includedir}/poppler

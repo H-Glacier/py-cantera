@@ -1,0 +1,125 @@
+{
+  "build": "h7f8727e_2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.5.0"
+  ],
+  "extracted_package_dir": "/public/home/jian_huang/.conda/pkgs/epoxy-1.5.4-h7f8727e_2",
+  "features": "",
+  "files": [
+    "include/epoxy/common.h",
+    "include/epoxy/egl.h",
+    "include/epoxy/egl_generated.h",
+    "include/epoxy/gl.h",
+    "include/epoxy/gl_generated.h",
+    "include/epoxy/glx.h",
+    "include/epoxy/glx_generated.h",
+    "lib/libepoxy.so",
+    "lib/libepoxy.so.0",
+    "lib/libepoxy.so.0.0.0",
+    "lib/pkgconfig/epoxy.pc"
+  ],
+  "fn": "epoxy-1.5.4-h7f8727e_2.conda",
+  "legacy_bz2_md5": "340768eafadc5e0fd4db3fa0ae399b77",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/public/home/jian_huang/.conda/pkgs/epoxy-1.5.4-h7f8727e_2",
+    "type": 1
+  },
+  "md5": "dc5c7364c37f340374729502180655f4",
+  "name": "epoxy",
+  "package_tarball_full_path": "/public/home/jian_huang/.conda/pkgs/epoxy-1.5.4-h7f8727e_2.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/epoxy/common.h",
+        "path_type": "hardlink",
+        "sha256": "6ca081490cf1f40806a2369a017da5e1db309bb7494e286aae61a5b8e5c48ca5",
+        "sha256_in_prefix": "6ca081490cf1f40806a2369a017da5e1db309bb7494e286aae61a5b8e5c48ca5",
+        "size_in_bytes": 1990
+      },
+      {
+        "_path": "include/epoxy/egl.h",
+        "path_type": "hardlink",
+        "sha256": "29c01316343c97b646e2b34b0ffc4b0be99d2586d0a69ab93dc37a3a8acfe5ce",
+        "sha256_in_prefix": "29c01316343c97b646e2b34b0ffc4b0be99d2586d0a69ab93dc37a3a8acfe5ce",
+        "size_in_bytes": 1840
+      },
+      {
+        "_path": "include/epoxy/egl_generated.h",
+        "path_type": "hardlink",
+        "sha256": "8bdbbb5dd7636198044a445ada5d41791cf50c29a2ceb0a042332905b33c8112",
+        "sha256_in_prefix": "8bdbbb5dd7636198044a445ada5d41791cf50c29a2ceb0a042332905b33c8112",
+        "size_in_bytes": 96768
+      },
+      {
+        "_path": "include/epoxy/gl.h",
+        "path_type": "hardlink",
+        "sha256": "85e54fa79a3c2142077400df87fdcd33e437d74df92bce4e830239111beedaa0",
+        "sha256_in_prefix": "85e54fa79a3c2142077400df87fdcd33e437d74df92bce4e830239111beedaa0",
+        "size_in_bytes": 3104
+      },
+      {
+        "_path": "include/epoxy/gl_generated.h",
+        "path_type": "hardlink",
+        "sha256": "9b89cd60a6851aadaa8c39493bdab63ec8f793e2ff296fcd66dca0d8245e9d37",
+        "sha256_in_prefix": "9b89cd60a6851aadaa8c39493bdab63ec8f793e2ff296fcd66dca0d8245e9d37",
+        "size_in_bytes": 1492142
+      },
+      {
+        "_path": "include/epoxy/glx.h",
+        "path_type": "hardlink",
+        "sha256": "7afe6701e87e83744229e2c1de7648af54c450cc863aff65e394d465f48cc68d",
+        "sha256_in_prefix": "7afe6701e87e83744229e2c1de7648af54c450cc863aff65e394d465f48cc68d",
+        "size_in_bytes": 1920
+      },
+      {
+        "_path": "include/epoxy/glx_generated.h",
+        "path_type": "hardlink",
+        "sha256": "5aa60085fea0c44f4a5314aa84546b422fe9952f6514b92c6fe3e55867ad6861",
+        "sha256_in_prefix": "5aa60085fea0c44f4a5314aa84546b422fe9952f6514b92c6fe3e55867ad6861",
+        "size_in_bytes": 66777
+      },
+      {
+        "_path": "lib/libepoxy.so",
+        "path_type": "softlink",
+        "sha256": "7ec0c0311629ae02ec218bca2132fbabade17e5816224e135707e5347b899a08",
+        "size_in_bytes": 5626160
+      },
+      {
+        "_path": "lib/libepoxy.so.0",
+        "path_type": "softlink",
+        "sha256": "7ec0c0311629ae02ec218bca2132fbabade17e5816224e135707e5347b899a08",
+        "size_in_bytes": 5626160
+      },
+      {
+        "_path": "lib/libepoxy.so.0.0.0",
+        "path_type": "hardlink",
+        "sha256": "7ec0c0311629ae02ec218bca2132fbabade17e5816224e135707e5347b899a08",
+        "sha256_in_prefix": "7ec0c0311629ae02ec218bca2132fbabade17e5816224e135707e5347b899a08",
+        "size_in_bytes": 5626160
+      },
+      {
+        "_path": "lib/pkgconfig/epoxy.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/tmp/build/80754af9/epoxy_1632392681512/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "625bff3fcce37a497ef260d8d10f94f96c35d9e97bd9927aabeba84e54304ccb",
+        "sha256_in_prefix": "8cdc03c73ddc7a4d43843da899b9ffb5586f91efac1a20a1253abcbd44943128",
+        "size_in_bytes": 492
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e2dcb63aa7ff1245a4597b70a764949c1ed13ea7dc94a276c1d41f574d942a46",
+  "size": 1161921,
+  "subdir": "linux-64",
+  "timestamp": 1632392751126,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/epoxy-1.5.4-h7f8727e_2.conda",
+  "version": "1.5.4"
+}

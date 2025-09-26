@@ -1,0 +1,89 @@
+{
+  "build": "h50385e7_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=11.2.0",
+    "libstdcxx-ng >=11.2.0",
+    "xorg-libx11 >=1.8.12,<2.0a0",
+    "xorg-libxext >=1.3.6,<2.0a0",
+    "xorg-xorgproto >=2024.1,<2025.0a0"
+  ],
+  "extracted_package_dir": "/public/home/jian_huang/.conda/pkgs/xorg-libxinerama-1.1.5-h50385e7_1",
+  "features": "",
+  "files": [
+    "include/X11/extensions/Xinerama.h",
+    "include/X11/extensions/panoramiXext.h",
+    "lib/libXinerama.so",
+    "lib/libXinerama.so.1",
+    "lib/libXinerama.so.1.0.0",
+    "lib/pkgconfig/xinerama.pc"
+  ],
+  "fn": "xorg-libxinerama-1.1.5-h50385e7_1.conda",
+  "legacy_bz2_md5": "08f801848b8be242c8160ff8494bf7cf",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/public/home/jian_huang/.conda/pkgs/xorg-libxinerama-1.1.5-h50385e7_1",
+    "type": 1
+  },
+  "md5": "b1468f07de87c7516bb2097f3ee92838",
+  "name": "xorg-libxinerama",
+  "package_tarball_full_path": "/public/home/jian_huang/.conda/pkgs/xorg-libxinerama-1.1.5-h50385e7_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/X11/extensions/Xinerama.h",
+        "path_type": "hardlink",
+        "sha256": "b4fb5a8c42daa9e9817e84be0c3d0dc177c7d862dd086471a707e13bf6d5e957",
+        "sha256_in_prefix": "b4fb5a8c42daa9e9817e84be0c3d0dc177c7d862dd086471a707e13bf6d5e957",
+        "size_in_bytes": 1964
+      },
+      {
+        "_path": "include/X11/extensions/panoramiXext.h",
+        "path_type": "hardlink",
+        "sha256": "6067417fadee5a070126970e81fb0703441c0e721acf08883e6e1d52d9268c5f",
+        "sha256_in_prefix": "6067417fadee5a070126970e81fb0703441c0e721acf08883e6e1d52d9268c5f",
+        "size_in_bytes": 2893
+      },
+      {
+        "_path": "lib/libXinerama.so",
+        "path_type": "softlink",
+        "sha256": "0422a7070d123cdcbe595a973d73130a0b0dc43684ffa0104f3fe1b28f7e645c",
+        "size_in_bytes": 16528
+      },
+      {
+        "_path": "lib/libXinerama.so.1",
+        "path_type": "softlink",
+        "sha256": "0422a7070d123cdcbe595a973d73130a0b0dc43684ffa0104f3fe1b28f7e645c",
+        "size_in_bytes": 16528
+      },
+      {
+        "_path": "lib/libXinerama.so.1.0.0",
+        "path_type": "hardlink",
+        "sha256": "0422a7070d123cdcbe595a973d73130a0b0dc43684ffa0104f3fe1b28f7e645c",
+        "sha256_in_prefix": "0422a7070d123cdcbe595a973d73130a0b0dc43684ffa0104f3fe1b28f7e645c",
+        "size_in_bytes": 16528
+      },
+      {
+        "_path": "lib/pkgconfig/xinerama.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/xorg-libxinerama_1746171578250/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "f99ee205ebae242240598164f4eb380a78b72fb661ad4a279c920e6c7822440f",
+        "sha256_in_prefix": "fbb8c6d87f344ec96e7181d08daf18f33691e8b74a188cc5936bdef403a49eb2",
+        "size_in_bytes": 509
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "1e62fdd60618ddec451c0e5de0c8816d64e239c7657e0ad1a30f3720e4bb64f0",
+  "size": 13168,
+  "subdir": "linux-64",
+  "timestamp": 1746171611208,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/xorg-libxinerama-1.1.5-h50385e7_1.conda",
+  "version": "1.1.5"
+}

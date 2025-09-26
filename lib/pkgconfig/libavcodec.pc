@@ -1,0 +1,14 @@
+prefix=/public/home/jian_huang/.conda/envs/ct-dev
+exec_prefix=${prefix}
+libdir=/public/home/jian_huang/.conda/envs/ct-dev/lib
+includedir=/public/home/jian_huang/.conda/envs/ct-dev/include
+
+Name: libavcodec
+Description: FFmpeg codec library
+Version: 60.31.102
+Requires: 
+Requires.private: libswresample >= 4.12.100, libavutil >= 58.29.100
+Conflicts:
+Libs: -L${libdir}  -lavcodec 
+Libs.private: -L/public/home/jian_huang/.conda/envs/ct-dev/lib -lvpx -lm -L/public/home/jian_huang/.conda/envs/ct-dev/lib -lvpx -lm -L/public/home/jian_huang/.conda/envs/ct-dev/lib -lvpx -lm -L/public/home/jian_huang/.conda/envs/ct-dev/lib -lvpx -lm -pthread -liconv -lm -latomic -llzma -L/public/home/jian_huang/.conda/envs/ct-dev/lib -ldav1d -L/public/home/jian_huang/.conda/envs/ct-dev//public/home/jian_huang/.conda/envs/ct-dev/lib -laom -lmp3lame -lm -L/public/home/jian_huang/.conda/envs/ct-dev/lib -lopenjp2 -L/public/home/jian_huang/.conda/envs/ct-dev/lib -lopus -ltheoraenc -ltheoradec -logg -L/public/home/jian_huang/.conda/envs/ct-dev/lib -lvorbis -L/public/home/jian_huang/.conda/envs/ct-dev/lib -lvorbisenc -L/public/home/jian_huang/.conda/envs/ct-dev/lib -lopenh264 -L/public/home/jian_huang/.conda/envs/ct-dev/lib -lz
+Cflags: -I${includedir}

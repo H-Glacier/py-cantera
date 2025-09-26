@@ -1,0 +1,12 @@
+prefix=/public/home/jian_huang/.conda/envs/ct-dev
+libdir=/public/home/jian_huang/.conda/envs/ct-dev/lib
+includedir=/public/home/jian_huang/.conda/envs/ct-dev/include
+
+Name: poppler-cpp
+Description: cpp backend for Poppler PDF rendering library
+Version: 24.09.0
+Requires: 
+Requires.private: poppler = 24.09.0
+
+Libs: -L${libdir} -lpoppler-cpp
+Cflags: -I${includedir}/poppler/cpp

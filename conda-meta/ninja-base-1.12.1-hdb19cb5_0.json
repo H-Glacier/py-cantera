@@ -1,0 +1,46 @@
+{
+  "build": "hdb19cb5_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=11.2.0",
+    "libstdcxx-ng >=11.2.0"
+  ],
+  "extracted_package_dir": "/public/home/jian_huang/.conda/pkgs/ninja-base-1.12.1-hdb19cb5_0",
+  "features": "",
+  "files": [
+    "bin/ninja"
+  ],
+  "fn": "ninja-base-1.12.1-hdb19cb5_0.conda",
+  "legacy_bz2_md5": "cb08c64d354f9514bf1107de53c2cffd",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/public/home/jian_huang/.conda/pkgs/ninja-base-1.12.1-hdb19cb5_0",
+    "type": 1
+  },
+  "md5": "ba93403adca043b922d9617728082022",
+  "name": "ninja-base",
+  "package_tarball_full_path": "/public/home/jian_huang/.conda/pkgs/ninja-base-1.12.1-hdb19cb5_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/ninja",
+        "path_type": "hardlink",
+        "sha256": "1ff99b4e3f816c2e3fbba502c97cf05b32b495f20ff1a0c1ebee6a0f4ac3bcd5",
+        "sha256_in_prefix": "1ff99b4e3f816c2e3fbba502c97cf05b32b495f20ff1a0c1ebee6a0f4ac3bcd5",
+        "size_in_bytes": 363216
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e93da6e356485bd164b22b03a1bce5676470040afe1a2d147a223a3f0d854cd3",
+  "size": 160393,
+  "subdir": "linux-64",
+  "timestamp": 1730999588675,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/ninja-base-1.12.1-hdb19cb5_0.conda",
+  "version": "1.12.1"
+}

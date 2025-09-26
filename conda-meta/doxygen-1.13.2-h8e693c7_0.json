@@ -1,0 +1,63 @@
+{
+  "build": "h8e693c7_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libgcc >=13",
+    "libiconv >=1.17,<2.0a0",
+    "libstdcxx >=13"
+  ],
+  "extracted_package_dir": "/public/home/jian_huang/.conda/pkgs/doxygen-1.13.2-h8e693c7_0",
+  "features": "",
+  "files": [
+    "bin/doxyapp",
+    "bin/doxygen",
+    "share/man/man1/doxygen.1"
+  ],
+  "fn": "doxygen-1.13.2-h8e693c7_0.conda",
+  "license": "GPL-2.0-only",
+  "license_family": "GPL",
+  "link": {
+    "source": "/public/home/jian_huang/.conda/pkgs/doxygen-1.13.2-h8e693c7_0",
+    "type": 1
+  },
+  "md5": "0869f41ea5c64643dd2f5b47f32709ca",
+  "name": "doxygen",
+  "package_tarball_full_path": "/public/home/jian_huang/.conda/pkgs/doxygen-1.13.2-h8e693c7_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/doxyapp",
+        "path_type": "hardlink",
+        "sha256": "d3ae5be0a7b27fcdf50dd4426cd8783d91280a6021c4e6b47e6b0af4eef83b7a",
+        "sha256_in_prefix": "d3ae5be0a7b27fcdf50dd4426cd8783d91280a6021c4e6b47e6b0af4eef83b7a",
+        "size_in_bytes": 27567776
+      },
+      {
+        "_path": "bin/doxygen",
+        "path_type": "hardlink",
+        "sha256": "ca4dc8f741b5e61c7014f305b81dbb2fcad9ab448c73e4932eda41a970a865f4",
+        "sha256_in_prefix": "ca4dc8f741b5e61c7014f305b81dbb2fcad9ab448c73e4932eda41a970a865f4",
+        "size_in_bytes": 30679944
+      },
+      {
+        "_path": "share/man/man1/doxygen.1",
+        "path_type": "hardlink",
+        "sha256": "a5b348cc0455291c5e3a7e38f3af764752bdd2392ebe0e609a9817033fd74816",
+        "sha256_in_prefix": "a5b348cc0455291c5e3a7e38f3af764752bdd2392ebe0e609a9817033fd74816",
+        "size_in_bytes": 2723
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "doxygen",
+  "sha256": "349c4c872357b4a533e127b2ade8533796e8e062abc2cd685756a1a063ae1e35",
+  "size": 13148627,
+  "subdir": "linux-64",
+  "timestamp": 1738164137421,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/doxygen-1.13.2-h8e693c7_0.conda",
+  "version": "1.13.2"
+}

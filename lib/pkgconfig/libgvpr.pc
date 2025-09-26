@@ -1,0 +1,11 @@
+prefix=/public/home/jian_huang/.conda/envs/ct-dev
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libgvpr
+Description: The GVPR library
+Version: 12.2.1
+Libs: -L${libdir} -lgvpr -lcgraph -lcdt
+Cflags: -I${includedir} -I${includedir}/graphviz
+

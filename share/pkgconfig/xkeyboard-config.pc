@@ -1,0 +1,7 @@
+
+datadir=/public/home/jian_huang/.conda/envs/ct-dev/share
+xkb_base=/public/home/jian_huang/.conda/envs/ct-dev/share/X11/xkb
+
+Name: XKeyboardConfig
+Description: X Keyboard configuration data
+Version: 2.44

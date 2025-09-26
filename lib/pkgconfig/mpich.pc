@@ -1,0 +1,20 @@
+# this gives access to the mpich header files
+prefix=/public/home/jian_huang/.conda/envs/ct-dev
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: mpich
+Description: High Performance and portable MPI
+Version: 4.1.1
+URL: http://www.mcs.anl.gov/research/projects/mpich
+Requires:
+Libs: -Wl,-rpath -Wl,${exec_prefix}/lib -Wl,--enable-new-dtags -L/public/home/jian_huang/.conda/envs/ct-dev/lib -Wl,-rpath,/public/home/jian_huang/.conda/envs/ct-dev/lib -L${libdir} -lmpi   -lpthread  -lrt  -L/public/home/jian_huang/.conda/envs/ct-dev/lib  -lrt -latomic -lpthread -ldl
+Cflags: -I/public/home/jian_huang/.conda/envs/ct-dev/include -I/public/home/jian_huang/.conda/envs/ct-dev/include -I${includedir}
+
+# pkg-config does not understand Cxxflags, etc. So we allow users to
+# query them using the --variable option
+
+cxxflags=-I/public/home/jian_huang/.conda/envs/ct-dev/include -I/public/home/jian_huang/.conda/envs/ct-dev/include -I${includedir}
+fflags=-I/public/home/jian_huang/.conda/envs/ct-dev/include -fallow-argument-mismatch -I${includedir}
+fcflags=-I/public/home/jian_huang/.conda/envs/ct-dev/include -fallow-argument-mismatch -I${includedir}

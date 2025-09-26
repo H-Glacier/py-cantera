@@ -1,0 +1,108 @@
+{
+  "build": "py312h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "ipykernel",
+    "ipywidgets",
+    "jupyter_console",
+    "jupyterlab",
+    "nbconvert",
+    "notebook",
+    "python >=3.12,<3.13.0a0",
+    "qtconsole"
+  ],
+  "extracted_package_dir": "/public/home/jian_huang/.conda/pkgs/jupyter-1.1.1-py312h06a4308_0",
+  "features": "",
+  "files": [
+    "lib/python3.12/site-packages/jupyter-1.1.1.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/jupyter-1.1.1.dist-info/LICENSE",
+    "lib/python3.12/site-packages/jupyter-1.1.1.dist-info/METADATA",
+    "lib/python3.12/site-packages/jupyter-1.1.1.dist-info/RECORD",
+    "lib/python3.12/site-packages/jupyter-1.1.1.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/jupyter-1.1.1.dist-info/WHEEL",
+    "lib/python3.12/site-packages/jupyter-1.1.1.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/jupyter-1.1.1.dist-info/top_level.txt"
+  ],
+  "fn": "jupyter-1.1.1-py312h06a4308_0.conda",
+  "legacy_bz2_md5": "2fa6cebe881e8c624918fa6d05c47d7a",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/public/home/jian_huang/.conda/pkgs/jupyter-1.1.1-py312h06a4308_0",
+    "type": 1
+  },
+  "md5": "ee743597bd10d1dac52601574ec5e312",
+  "name": "jupyter",
+  "package_tarball_full_path": "/public/home/jian_huang/.conda/pkgs/jupyter-1.1.1-py312h06a4308_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.12/site-packages/jupyter-1.1.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jupyter-1.1.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "1b9f3955dcf9c235b10c168cca09b88c1f2adf992a0dc13120482d93037602ac",
+        "sha256_in_prefix": "1b9f3955dcf9c235b10c168cca09b88c1f2adf992a0dc13120482d93037602ac",
+        "size_in_bytes": 1527
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jupyter-1.1.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "5ed413cb0e259a88948a21be8c5d598885616cea4aa6ac8757c458b394f0f1e9",
+        "sha256_in_prefix": "5ed413cb0e259a88948a21be8c5d598885616cea4aa6ac8757c458b394f0f1e9",
+        "size_in_bytes": 1964
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jupyter-1.1.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "cad0fde99f054766a55bdb0ee7fa09c65b50fe0e09333812e7672b47223c28d5",
+        "sha256_in_prefix": "cad0fde99f054766a55bdb0ee7fa09c65b50fe0e09333812e7672b47223c28d5",
+        "size_in_bytes": 662
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jupyter-1.1.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jupyter-1.1.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "0075fab56937a96b9c7bbbca2eb8fb967ba554711d5a896d81aba8f1b8025e05",
+        "sha256_in_prefix": "0075fab56937a96b9c7bbbca2eb8fb967ba554711d5a896d81aba8f1b8025e05",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jupyter-1.1.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "23022ebe9f3db37f5c7261a07c0ae0b8332ee733a48ef6633c4b7c592078b151",
+        "sha256_in_prefix": "23022ebe9f3db37f5c7261a07c0ae0b8332ee733a48ef6633c4b7c592078b151",
+        "size_in_bytes": 67
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jupyter-1.1.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "jupyter",
+  "sha256": "71e34c562314c85ae88d3a9f59e5f2476843c8144647031e044b70168072ff5e",
+  "size": 7928,
+  "subdir": "linux-64",
+  "timestamp": 1737645962417,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/jupyter-1.1.1-py312h06a4308_0.conda",
+  "version": "1.1.1"
+}

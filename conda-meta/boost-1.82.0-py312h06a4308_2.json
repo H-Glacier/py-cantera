@@ -1,0 +1,37 @@
+{
+  "build": "py312h06a4308_2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libboost 1.82.0 h109eef0_2",
+    "py-boost 1.82.0 py312h6db74b5_2",
+    "python >=3.12,<3.13.0a0"
+  ],
+  "extracted_package_dir": "/public/home/jian_huang/.conda/pkgs/boost-1.82.0-py312h06a4308_2",
+  "features": "",
+  "files": [],
+  "fn": "boost-1.82.0-py312h06a4308_2.conda",
+  "legacy_bz2_md5": "d52d2553155443a1bbc52b5daa5c42ca",
+  "license": "BSL-1.0",
+  "license_family": "OTHER",
+  "link": {
+    "source": "/public/home/jian_huang/.conda/pkgs/boost-1.82.0-py312h06a4308_2",
+    "type": 1
+  },
+  "md5": "e6764d9c4454ff71e2fce545cfda0757",
+  "name": "boost",
+  "package_tarball_full_path": "/public/home/jian_huang/.conda/pkgs/boost-1.82.0-py312h06a4308_2.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "boost",
+  "sha256": "676ed9d4ba956966f8517cbcd9ba64d72923173fe57bc826591fd0f20cd191b6",
+  "size": 10927,
+  "subdir": "linux-64",
+  "timestamp": 1698867562293,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/boost-1.82.0-py312h06a4308_2.conda",
+  "version": "1.82.0"
+}

@@ -1,0 +1,258 @@
+{
+  "build": "hdbd6064_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=11.2.0",
+    "openssl 3.*",
+    "openssl >=3.0.8,<4.0a0"
+  ],
+  "extracted_package_dir": "/public/home/jian_huang/.conda/pkgs/rhash-1.4.3-hdbd6064_0",
+  "features": "",
+  "files": [
+    "bin/ed2k-link",
+    "bin/edonr256-hash",
+    "bin/edonr512-hash",
+    "bin/gost12-256-hash",
+    "bin/gost12-512-hash",
+    "bin/has160-hash",
+    "bin/magnet-link",
+    "bin/rhash",
+    "bin/sfv-hash",
+    "bin/tiger-hash",
+    "bin/tth-hash",
+    "bin/whirlpool-hash",
+    "etc/rhashrc",
+    "include/rhash.h",
+    "include/rhash_torrent.h",
+    "lib/librhash.a",
+    "lib/librhash.so",
+    "lib/librhash.so.0",
+    "share/man/man1/ed2k-link.1",
+    "share/man/man1/edonr256-hash.1",
+    "share/man/man1/edonr512-hash.1",
+    "share/man/man1/gost12-256-hash.1",
+    "share/man/man1/gost12-512-hash.1",
+    "share/man/man1/has160-hash.1",
+    "share/man/man1/magnet-link.1",
+    "share/man/man1/rhash.1",
+    "share/man/man1/sfv-hash.1",
+    "share/man/man1/tiger-hash.1",
+    "share/man/man1/tth-hash.1",
+    "share/man/man1/whirlpool-hash.1"
+  ],
+  "fn": "rhash-1.4.3-hdbd6064_0.conda",
+  "legacy_bz2_md5": "0b521d4b17c7f4daab138ae68aae05ba",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/public/home/jian_huang/.conda/pkgs/rhash-1.4.3-hdbd6064_0",
+    "type": 1
+  },
+  "md5": "716455cf362999984bcb5a01b5f94ff9",
+  "name": "rhash",
+  "package_tarball_full_path": "/public/home/jian_huang/.conda/pkgs/rhash-1.4.3-hdbd6064_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/ed2k-link",
+        "path_type": "softlink",
+        "sha256": "e593380a02c4d5b29a1645e11fbfc38e49e657dadcec3d188b1bbfea60d58a0c",
+        "size_in_bytes": 100552
+      },
+      {
+        "_path": "bin/edonr256-hash",
+        "path_type": "softlink",
+        "sha256": "e593380a02c4d5b29a1645e11fbfc38e49e657dadcec3d188b1bbfea60d58a0c",
+        "size_in_bytes": 100552
+      },
+      {
+        "_path": "bin/edonr512-hash",
+        "path_type": "softlink",
+        "sha256": "e593380a02c4d5b29a1645e11fbfc38e49e657dadcec3d188b1bbfea60d58a0c",
+        "size_in_bytes": 100552
+      },
+      {
+        "_path": "bin/gost12-256-hash",
+        "path_type": "softlink",
+        "sha256": "e593380a02c4d5b29a1645e11fbfc38e49e657dadcec3d188b1bbfea60d58a0c",
+        "size_in_bytes": 100552
+      },
+      {
+        "_path": "bin/gost12-512-hash",
+        "path_type": "softlink",
+        "sha256": "e593380a02c4d5b29a1645e11fbfc38e49e657dadcec3d188b1bbfea60d58a0c",
+        "size_in_bytes": 100552
+      },
+      {
+        "_path": "bin/has160-hash",
+        "path_type": "softlink",
+        "sha256": "e593380a02c4d5b29a1645e11fbfc38e49e657dadcec3d188b1bbfea60d58a0c",
+        "size_in_bytes": 100552
+      },
+      {
+        "_path": "bin/magnet-link",
+        "path_type": "softlink",
+        "sha256": "e593380a02c4d5b29a1645e11fbfc38e49e657dadcec3d188b1bbfea60d58a0c",
+        "size_in_bytes": 100552
+      },
+      {
+        "_path": "bin/rhash",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/rhash_1685629419275/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "e593380a02c4d5b29a1645e11fbfc38e49e657dadcec3d188b1bbfea60d58a0c",
+        "sha256_in_prefix": "242d54dcbdfce3083d8b970b2391456c100b73f910d8370512ae035cd42b1927",
+        "size_in_bytes": 100552
+      },
+      {
+        "_path": "bin/sfv-hash",
+        "path_type": "softlink",
+        "sha256": "e593380a02c4d5b29a1645e11fbfc38e49e657dadcec3d188b1bbfea60d58a0c",
+        "size_in_bytes": 100552
+      },
+      {
+        "_path": "bin/tiger-hash",
+        "path_type": "softlink",
+        "sha256": "e593380a02c4d5b29a1645e11fbfc38e49e657dadcec3d188b1bbfea60d58a0c",
+        "size_in_bytes": 100552
+      },
+      {
+        "_path": "bin/tth-hash",
+        "path_type": "softlink",
+        "sha256": "e593380a02c4d5b29a1645e11fbfc38e49e657dadcec3d188b1bbfea60d58a0c",
+        "size_in_bytes": 100552
+      },
+      {
+        "_path": "bin/whirlpool-hash",
+        "path_type": "softlink",
+        "sha256": "e593380a02c4d5b29a1645e11fbfc38e49e657dadcec3d188b1bbfea60d58a0c",
+        "size_in_bytes": 100552
+      },
+      {
+        "_path": "etc/rhashrc",
+        "path_type": "hardlink",
+        "sha256": "8f1f9acb492a6b7a454baa107d6aff21d92a6f5303be2cc4445602bec55295b3",
+        "sha256_in_prefix": "8f1f9acb492a6b7a454baa107d6aff21d92a6f5303be2cc4445602bec55295b3",
+        "size_in_bytes": 523
+      },
+      {
+        "_path": "include/rhash.h",
+        "path_type": "hardlink",
+        "sha256": "5b7911d239c98078fad14a1deac58d14cfac3b0b0fea8ec3ba18b0dbdaa5d76d",
+        "sha256_in_prefix": "5b7911d239c98078fad14a1deac58d14cfac3b0b0fea8ec3ba18b0dbdaa5d76d",
+        "size_in_bytes": 16934
+      },
+      {
+        "_path": "include/rhash_torrent.h",
+        "path_type": "hardlink",
+        "sha256": "9eee78aeb3058cfc72344d04f7098fa7d85082d480ea331e7cb7ef94d972f058",
+        "sha256_in_prefix": "9eee78aeb3058cfc72344d04f7098fa7d85082d480ea331e7cb7ef94d972f058",
+        "size_in_bytes": 3072
+      },
+      {
+        "_path": "lib/librhash.a",
+        "path_type": "hardlink",
+        "sha256": "2f49d9e22c0ac3805fd499e23815b6310a447dad1a85541b6aadd6c7968c1ef7",
+        "sha256_in_prefix": "2f49d9e22c0ac3805fd499e23815b6310a447dad1a85541b6aadd6c7968c1ef7",
+        "size_in_bytes": 320858
+      },
+      {
+        "_path": "lib/librhash.so",
+        "path_type": "softlink",
+        "sha256": "e48457126f89638f86c3766939e79a64035cac1bae7dc9e15ee742d914b26477",
+        "size_in_bytes": 228968
+      },
+      {
+        "_path": "lib/librhash.so.0",
+        "path_type": "hardlink",
+        "sha256": "e48457126f89638f86c3766939e79a64035cac1bae7dc9e15ee742d914b26477",
+        "sha256_in_prefix": "e48457126f89638f86c3766939e79a64035cac1bae7dc9e15ee742d914b26477",
+        "size_in_bytes": 228968
+      },
+      {
+        "_path": "share/man/man1/ed2k-link.1",
+        "path_type": "softlink",
+        "sha256": "a024a69c459e03cde11062d1563f19ae7dbcaac805a288e2119a2ad04c3ea990",
+        "size_in_bytes": 13088
+      },
+      {
+        "_path": "share/man/man1/edonr256-hash.1",
+        "path_type": "softlink",
+        "sha256": "a024a69c459e03cde11062d1563f19ae7dbcaac805a288e2119a2ad04c3ea990",
+        "size_in_bytes": 13088
+      },
+      {
+        "_path": "share/man/man1/edonr512-hash.1",
+        "path_type": "softlink",
+        "sha256": "a024a69c459e03cde11062d1563f19ae7dbcaac805a288e2119a2ad04c3ea990",
+        "size_in_bytes": 13088
+      },
+      {
+        "_path": "share/man/man1/gost12-256-hash.1",
+        "path_type": "softlink",
+        "sha256": "a024a69c459e03cde11062d1563f19ae7dbcaac805a288e2119a2ad04c3ea990",
+        "size_in_bytes": 13088
+      },
+      {
+        "_path": "share/man/man1/gost12-512-hash.1",
+        "path_type": "softlink",
+        "sha256": "a024a69c459e03cde11062d1563f19ae7dbcaac805a288e2119a2ad04c3ea990",
+        "size_in_bytes": 13088
+      },
+      {
+        "_path": "share/man/man1/has160-hash.1",
+        "path_type": "softlink",
+        "sha256": "a024a69c459e03cde11062d1563f19ae7dbcaac805a288e2119a2ad04c3ea990",
+        "size_in_bytes": 13088
+      },
+      {
+        "_path": "share/man/man1/magnet-link.1",
+        "path_type": "softlink",
+        "sha256": "a024a69c459e03cde11062d1563f19ae7dbcaac805a288e2119a2ad04c3ea990",
+        "size_in_bytes": 13088
+      },
+      {
+        "_path": "share/man/man1/rhash.1",
+        "path_type": "hardlink",
+        "sha256": "a024a69c459e03cde11062d1563f19ae7dbcaac805a288e2119a2ad04c3ea990",
+        "sha256_in_prefix": "a024a69c459e03cde11062d1563f19ae7dbcaac805a288e2119a2ad04c3ea990",
+        "size_in_bytes": 13088
+      },
+      {
+        "_path": "share/man/man1/sfv-hash.1",
+        "path_type": "softlink",
+        "sha256": "a024a69c459e03cde11062d1563f19ae7dbcaac805a288e2119a2ad04c3ea990",
+        "size_in_bytes": 13088
+      },
+      {
+        "_path": "share/man/man1/tiger-hash.1",
+        "path_type": "softlink",
+        "sha256": "a024a69c459e03cde11062d1563f19ae7dbcaac805a288e2119a2ad04c3ea990",
+        "size_in_bytes": 13088
+      },
+      {
+        "_path": "share/man/man1/tth-hash.1",
+        "path_type": "softlink",
+        "sha256": "a024a69c459e03cde11062d1563f19ae7dbcaac805a288e2119a2ad04c3ea990",
+        "size_in_bytes": 13088
+      },
+      {
+        "_path": "share/man/man1/whirlpool-hash.1",
+        "path_type": "softlink",
+        "sha256": "a024a69c459e03cde11062d1563f19ae7dbcaac805a288e2119a2ad04c3ea990",
+        "size_in_bytes": 13088
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "34d8810329b2986c49e717d100c5d35a7714dccdd2b75e2778f91c0d36a45902",
+  "size": 225598,
+  "subdir": "linux-64",
+  "timestamp": 1685629459700,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/rhash-1.4.3-hdbd6064_0.conda",
+  "version": "1.4.3"
+}

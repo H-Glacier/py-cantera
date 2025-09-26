@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /public/home/jian_huang/.conda/envs/ct-dev/bin/python -m PyQt6.lupdate.pylupdate ${1+"$@"}

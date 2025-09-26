@@ -1,0 +1,347 @@
+{
+  "build": "h597f2ad_2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "dbus >=1.13.18,<2.0a0",
+    "gettext",
+    "glib",
+    "libgcc-ng >=11.2.0",
+    "libglib >=2.78.4,<3.0a0",
+    "xorg-libx11 >=1.8.12,<2.0a0",
+    "xorg-libxtst >=1.2.5,<2.0a0"
+  ],
+  "extracted_package_dir": "/public/home/jian_huang/.conda/pkgs/at-spi2-core-2.36.0-h597f2ad_2",
+  "features": "",
+  "files": [
+    "include/at-spi-2.0/atspi/atspi-accessible.h",
+    "include/at-spi-2.0/atspi/atspi-action.h",
+    "include/at-spi-2.0/atspi/atspi-application.h",
+    "include/at-spi-2.0/atspi/atspi-collection.h",
+    "include/at-spi-2.0/atspi/atspi-component.h",
+    "include/at-spi-2.0/atspi/atspi-constants.h",
+    "include/at-spi-2.0/atspi/atspi-device-listener.h",
+    "include/at-spi-2.0/atspi/atspi-document.h",
+    "include/at-spi-2.0/atspi/atspi-editabletext.h",
+    "include/at-spi-2.0/atspi/atspi-enum-types.h",
+    "include/at-spi-2.0/atspi/atspi-event-listener.h",
+    "include/at-spi-2.0/atspi/atspi-gmain.h",
+    "include/at-spi-2.0/atspi/atspi-hyperlink.h",
+    "include/at-spi-2.0/atspi/atspi-hypertext.h",
+    "include/at-spi-2.0/atspi/atspi-image.h",
+    "include/at-spi-2.0/atspi/atspi-matchrule.h",
+    "include/at-spi-2.0/atspi/atspi-misc.h",
+    "include/at-spi-2.0/atspi/atspi-object.h",
+    "include/at-spi-2.0/atspi/atspi-registry.h",
+    "include/at-spi-2.0/atspi/atspi-relation.h",
+    "include/at-spi-2.0/atspi/atspi-selection.h",
+    "include/at-spi-2.0/atspi/atspi-stateset.h",
+    "include/at-spi-2.0/atspi/atspi-table-cell.h",
+    "include/at-spi-2.0/atspi/atspi-table.h",
+    "include/at-spi-2.0/atspi/atspi-text.h",
+    "include/at-spi-2.0/atspi/atspi-types.h",
+    "include/at-spi-2.0/atspi/atspi-value.h",
+    "include/at-spi-2.0/atspi/atspi.h",
+    "lib/libatspi.so",
+    "lib/libatspi.so.0",
+    "lib/libatspi.so.0.0.1",
+    "lib/pkgconfig/atspi-2.pc",
+    "libexec/at-spi-bus-launcher",
+    "libexec/at-spi2-registryd",
+    "share/dbus-1/accessibility-services/org.a11y.atspi.Registry.service",
+    "share/dbus-1/services/org.a11y.Bus.service",
+    "share/defaults/at-spi2/accessibility.conf"
+  ],
+  "fn": "at-spi2-core-2.36.0-h597f2ad_2.conda",
+  "legacy_bz2_md5": "ed3dfb130d67c6efbe8a0479a9441f62",
+  "license": "LGPL-2.1-or-later",
+  "license_family": "LGPL",
+  "link": {
+    "source": "/public/home/jian_huang/.conda/pkgs/at-spi2-core-2.36.0-h597f2ad_2",
+    "type": 1
+  },
+  "md5": "8a2db60ebb3539de8321cae4a4308096",
+  "name": "at-spi2-core",
+  "package_tarball_full_path": "/public/home/jian_huang/.conda/pkgs/at-spi2-core-2.36.0-h597f2ad_2.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/at-spi-2.0/atspi/atspi-accessible.h",
+        "path_type": "hardlink",
+        "sha256": "a0260eb694fb36eb5f63d81eb790da1a9a0ee24aad3500643aa12015ab130907",
+        "sha256_in_prefix": "a0260eb694fb36eb5f63d81eb790da1a9a0ee24aad3500643aa12015ab130907",
+        "size_in_bytes": 6762
+      },
+      {
+        "_path": "include/at-spi-2.0/atspi/atspi-action.h",
+        "path_type": "hardlink",
+        "sha256": "46454027fdefa5e2144f071000c5bf2878e792451a11c953fa97cf93e4b745e8",
+        "sha256_in_prefix": "46454027fdefa5e2144f071000c5bf2878e792451a11c953fa97cf93e4b745e8",
+        "size_in_bytes": 2332
+      },
+      {
+        "_path": "include/at-spi-2.0/atspi/atspi-application.h",
+        "path_type": "hardlink",
+        "sha256": "0129b4fcba0c1d3679a4e824a7fab0aa3e7a54d85dbfc8a76149f7355573f7a6",
+        "sha256_in_prefix": "0129b4fcba0c1d3679a4e824a7fab0aa3e7a54d85dbfc8a76149f7355573f7a6",
+        "size_in_bytes": 2475
+      },
+      {
+        "_path": "include/at-spi-2.0/atspi/atspi-collection.h",
+        "path_type": "hardlink",
+        "sha256": "ef3ab279e902f39dc89f7953267600c520649c95d6a7d7b2804df15d34635aa0",
+        "sha256_in_prefix": "ef3ab279e902f39dc89f7953267600c520649c95d6a7d7b2804df15d34635aa0",
+        "size_in_bytes": 2686
+      },
+      {
+        "_path": "include/at-spi-2.0/atspi/atspi-component.h",
+        "path_type": "hardlink",
+        "sha256": "2552f5dc5e74cffde3457a249c3fca92ffb877dc6f1be06f09f19bd840526ab7",
+        "sha256_in_prefix": "2552f5dc5e74cffde3457a249c3fca92ffb877dc6f1be06f09f19bd840526ab7",
+        "size_in_bytes": 3747
+      },
+      {
+        "_path": "include/at-spi-2.0/atspi/atspi-constants.h",
+        "path_type": "hardlink",
+        "sha256": "2d9ce349125e19803035a34abe08228624e23b6ee6f37ac462c141ca50cbdaf8",
+        "sha256_in_prefix": "2d9ce349125e19803035a34abe08228624e23b6ee6f37ac462c141ca50cbdaf8",
+        "size_in_bytes": 68198
+      },
+      {
+        "_path": "include/at-spi-2.0/atspi/atspi-device-listener.h",
+        "path_type": "hardlink",
+        "sha256": "7b2c0f75f6f9c543f0904410c97a7ebf79bc050637b5d3f97706fb9f4036d54c",
+        "sha256_in_prefix": "7b2c0f75f6f9c543f0904410c97a7ebf79bc050637b5d3f97706fb9f4036d54c",
+        "size_in_bytes": 4116
+      },
+      {
+        "_path": "include/at-spi-2.0/atspi/atspi-document.h",
+        "path_type": "hardlink",
+        "sha256": "edabb0216d9a9d2adea30d77313762ec7d75d9579cc076ac4201cb6f95d6d8f3",
+        "sha256_in_prefix": "edabb0216d9a9d2adea30d77313762ec7d75d9579cc076ac4201cb6f95d6d8f3",
+        "size_in_bytes": 2375
+      },
+      {
+        "_path": "include/at-spi-2.0/atspi/atspi-editabletext.h",
+        "path_type": "hardlink",
+        "sha256": "8bccddf102e7bfeeee3ae64f690853531767bfcfbeaa2cee076439c4d02989f9",
+        "sha256_in_prefix": "8bccddf102e7bfeeee3ae64f690853531767bfcfbeaa2cee076439c4d02989f9",
+        "size_in_bytes": 2591
+      },
+      {
+        "_path": "include/at-spi-2.0/atspi/atspi-enum-types.h",
+        "path_type": "hardlink",
+        "sha256": "a17a659d1ae2de2c74eebe137f466303d29911539ad89f9c5a39fe8d6e3b265a",
+        "sha256_in_prefix": "a17a659d1ae2de2c74eebe137f466303d29911539ad89f9c5a39fe8d6e3b265a",
+        "size_in_bytes": 2874
+      },
+      {
+        "_path": "include/at-spi-2.0/atspi/atspi-event-listener.h",
+        "path_type": "hardlink",
+        "sha256": "44ace985185f64dea76fa48ecaab1fe1f90b7432ce935631e862df76f6068102",
+        "sha256_in_prefix": "44ace985185f64dea76fa48ecaab1fe1f90b7432ce935631e862df76f6068102",
+        "size_in_bytes": 5064
+      },
+      {
+        "_path": "include/at-spi-2.0/atspi/atspi-gmain.h",
+        "path_type": "hardlink",
+        "sha256": "3b13f7f33ca8798a87b9384b0c0d4534bf2e49cb3b35c0946cc7e7f5be8f10e7",
+        "sha256_in_prefix": "3b13f7f33ca8798a87b9384b0c0d4534bf2e49cb3b35c0946cc7e7f5be8f10e7",
+        "size_in_bytes": 1299
+      },
+      {
+        "_path": "include/at-spi-2.0/atspi/atspi-hyperlink.h",
+        "path_type": "hardlink",
+        "sha256": "0572551eba0db830c32508452ba8ec3eb7587eaf8877014a3286a1d17c2a05d7",
+        "sha256_in_prefix": "0572551eba0db830c32508452ba8ec3eb7587eaf8877014a3286a1d17c2a05d7",
+        "size_in_bytes": 2808
+      },
+      {
+        "_path": "include/at-spi-2.0/atspi/atspi-hypertext.h",
+        "path_type": "hardlink",
+        "sha256": "be9f5a8d8f7524454b01c1f7e193006fd63c263eca0435fa778e97e02c84f46e",
+        "sha256_in_prefix": "be9f5a8d8f7524454b01c1f7e193006fd63c263eca0435fa778e97e02c84f46e",
+        "size_in_bytes": 2018
+      },
+      {
+        "_path": "include/at-spi-2.0/atspi/atspi-image.h",
+        "path_type": "hardlink",
+        "sha256": "1bed93827d4e97ed5174ec137a4a4ba9e4c2408ff3de5e04805bfa8037b70e57",
+        "sha256_in_prefix": "1bed93827d4e97ed5174ec137a4a4ba9e4c2408ff3de5e04805bfa8037b70e57",
+        "size_in_bytes": 2105
+      },
+      {
+        "_path": "include/at-spi-2.0/atspi/atspi-matchrule.h",
+        "path_type": "hardlink",
+        "sha256": "281e329411c9832f2fbc244c400702310cea2abc1abf0611154037c3ac66722e",
+        "sha256_in_prefix": "281e329411c9832f2fbc244c400702310cea2abc1abf0611154037c3ac66722e",
+        "size_in_bytes": 2976
+      },
+      {
+        "_path": "include/at-spi-2.0/atspi/atspi-misc.h",
+        "path_type": "hardlink",
+        "sha256": "a2375fab6296a06223e5eed68f8fdcfc26ac132ede4a25ca804203fc0597be5b",
+        "sha256_in_prefix": "a2375fab6296a06223e5eed68f8fdcfc26ac132ede4a25ca804203fc0597be5b",
+        "size_in_bytes": 1445
+      },
+      {
+        "_path": "include/at-spi-2.0/atspi/atspi-object.h",
+        "path_type": "hardlink",
+        "sha256": "bea1edc74c38e58d06cea49750c235eccdc7fdba8a11c87de7341a6a077709ce",
+        "sha256_in_prefix": "bea1edc74c38e58d06cea49750c235eccdc7fdba8a11c87de7341a6a077709ce",
+        "size_in_bytes": 2090
+      },
+      {
+        "_path": "include/at-spi-2.0/atspi/atspi-registry.h",
+        "path_type": "hardlink",
+        "sha256": "f9846be2de2514cc70ef83d6d53cf2bb8c9fdd20c6bfae6989e8fa94954cb372",
+        "sha256_in_prefix": "f9846be2de2514cc70ef83d6d53cf2bb8c9fdd20c6bfae6989e8fa94954cb372",
+        "size_in_bytes": 2497
+      },
+      {
+        "_path": "include/at-spi-2.0/atspi/atspi-relation.h",
+        "path_type": "hardlink",
+        "sha256": "4c384dd887f88b766d78b24168d15ebe28eccd32cdca55382e7ff6266a1300fe",
+        "sha256_in_prefix": "4c384dd887f88b766d78b24168d15ebe28eccd32cdca55382e7ff6266a1300fe",
+        "size_in_bytes": 2195
+      },
+      {
+        "_path": "include/at-spi-2.0/atspi/atspi-selection.h",
+        "path_type": "hardlink",
+        "sha256": "de25276f99f727aa7ca0feba8bef4102f351af582146684e247e62623391e9c4",
+        "sha256_in_prefix": "de25276f99f727aa7ca0feba8bef4102f351af582146684e247e62623391e9c4",
+        "size_in_bytes": 2543
+      },
+      {
+        "_path": "include/at-spi-2.0/atspi/atspi-stateset.h",
+        "path_type": "hardlink",
+        "sha256": "b582ddb2186d57c20341f9776cd05bf9d6798194c3a7f7a07564d05cc40853c1",
+        "sha256_in_prefix": "b582ddb2186d57c20341f9776cd05bf9d6798194c3a7f7a07564d05cc40853c1",
+        "size_in_bytes": 2872
+      },
+      {
+        "_path": "include/at-spi-2.0/atspi/atspi-table-cell.h",
+        "path_type": "hardlink",
+        "sha256": "88027c4fcac0f8ce27821edd8c470da9b37a28531dac5e8b2eaff869572037bd",
+        "sha256_in_prefix": "88027c4fcac0f8ce27821edd8c470da9b37a28531dac5e8b2eaff869572037bd",
+        "size_in_bytes": 2998
+      },
+      {
+        "_path": "include/at-spi-2.0/atspi/atspi-table.h",
+        "path_type": "hardlink",
+        "sha256": "d9e8cb7c2f30e4ac16e0b4dc47613f7fabbf4271bfc0cb266968ea56749dc6ea",
+        "sha256_in_prefix": "d9e8cb7c2f30e4ac16e0b4dc47613f7fabbf4271bfc0cb266968ea56749dc6ea",
+        "size_in_bytes": 3997
+      },
+      {
+        "_path": "include/at-spi-2.0/atspi/atspi-text.h",
+        "path_type": "hardlink",
+        "sha256": "90423001838063a75cfa5bb6d15e981ed2a100dc7bf307c8ed078409418bf268",
+        "sha256_in_prefix": "90423001838063a75cfa5bb6d15e981ed2a100dc7bf307c8ed078409418bf268",
+        "size_in_bytes": 5410
+      },
+      {
+        "_path": "include/at-spi-2.0/atspi/atspi-types.h",
+        "path_type": "hardlink",
+        "sha256": "1c10ee2be5dccc282bb515741b7f1c61d5d2007e50024a54e63e57eaba1aa04a",
+        "sha256_in_prefix": "1c10ee2be5dccc282bb515741b7f1c61d5d2007e50024a54e63e57eaba1aa04a",
+        "size_in_bytes": 5173
+      },
+      {
+        "_path": "include/at-spi-2.0/atspi/atspi-value.h",
+        "path_type": "hardlink",
+        "sha256": "738dea22ba0d20abaea3fc01663085538be19d9d29c014a13a44a7cc4b82c8e4",
+        "sha256_in_prefix": "738dea22ba0d20abaea3fc01663085538be19d9d29c014a13a44a7cc4b82c8e4",
+        "size_in_bytes": 2069
+      },
+      {
+        "_path": "include/at-spi-2.0/atspi/atspi.h",
+        "path_type": "hardlink",
+        "sha256": "f7c4e44dcd04a77e0a867835653a4a192679fd2cb35eada73f2d9880ad54435b",
+        "sha256_in_prefix": "f7c4e44dcd04a77e0a867835653a4a192679fd2cb35eada73f2d9880ad54435b",
+        "size_in_bytes": 1745
+      },
+      {
+        "_path": "lib/libatspi.so",
+        "path_type": "softlink",
+        "sha256": "d78035ce73e74d9b895613a81b08cdfcee7ed3294575b2a3b2c262d883ad9325",
+        "size_in_bytes": 788408
+      },
+      {
+        "_path": "lib/libatspi.so.0",
+        "path_type": "softlink",
+        "sha256": "d78035ce73e74d9b895613a81b08cdfcee7ed3294575b2a3b2c262d883ad9325",
+        "size_in_bytes": 788408
+      },
+      {
+        "_path": "lib/libatspi.so.0.0.1",
+        "path_type": "hardlink",
+        "sha256": "d78035ce73e74d9b895613a81b08cdfcee7ed3294575b2a3b2c262d883ad9325",
+        "sha256_in_prefix": "d78035ce73e74d9b895613a81b08cdfcee7ed3294575b2a3b2c262d883ad9325",
+        "size_in_bytes": 788408
+      },
+      {
+        "_path": "lib/pkgconfig/atspi-2.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/at-spi2-core_1748849498839/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "0e2ae78b51d14275b565eaae9fddac2e5e4105d8d16c8b7de43563a644efc610",
+        "sha256_in_prefix": "37f3fa63c9bc2c5a7eef2fec3cdb464e92524f2575595d6a8c58e2252692042c",
+        "size_in_bytes": 576
+      },
+      {
+        "_path": "libexec/at-spi-bus-launcher",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/at-spi2-core_1748849498839/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "157e4e73637a2f21ef5063f964bfd97e0f834a1e14e23681aad83c6dd1386090",
+        "sha256_in_prefix": "633eddd9a5ef589c8a2f324c11c651d6635aed79230dfc206919ebf2b0064cdb",
+        "size_in_bytes": 73456
+      },
+      {
+        "_path": "libexec/at-spi2-registryd",
+        "path_type": "hardlink",
+        "sha256": "60094afecf8d871ba944781c98d34e8c3e23c049d472c2736c0e7b3b1014c2f9",
+        "sha256_in_prefix": "60094afecf8d871ba944781c98d34e8c3e23c049d472c2736c0e7b3b1014c2f9",
+        "size_in_bytes": 352200
+      },
+      {
+        "_path": "share/dbus-1/accessibility-services/org.a11y.atspi.Registry.service",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/at-spi2-core_1748849498839/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "82dcf36136a0bf514042832be986ee198514df3c9eceb9042d94518c3d4600f2",
+        "sha256_in_prefix": "75660b02b2802e4b669e56b5b0c239d0897b3ab640542ae0cb522dacb329e8ae",
+        "size_in_bytes": 352
+      },
+      {
+        "_path": "share/dbus-1/services/org.a11y.Bus.service",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/at-spi2-core_1748849498839/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "d444452fc97d041cf57acd6ab65ec5e241479b002adf1389f8737253cc22bc74",
+        "sha256_in_prefix": "f14d3a7503bea4dc37d49f918a2d2227028122e28e6bc4d1a7067bb8aed1c613",
+        "size_in_bytes": 362
+      },
+      {
+        "_path": "share/defaults/at-spi2/accessibility.conf",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/at-spi2-core_1748849498839/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "ed121ba55e5f1c9ee2c60bd989649b556365aeaaec0da634ddd74a0ed9357def",
+        "sha256_in_prefix": "f6b96a5e0fe0ea9ca650cd6397361a900329b4f843673d6f199e028b60966e9d",
+        "size_in_bytes": 1617
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "945a831fbe127c51492dcffe1ab8719bbff816bf3056ab5d7c6475f327fdfbc5",
+  "size": 489564,
+  "subdir": "linux-64",
+  "timestamp": 1748849539773,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/at-spi2-core-2.36.0-h597f2ad_2.conda",
+  "version": "2.36.0"
+}

@@ -1,0 +1,12 @@
+prefix=/public/home/jian_huang/.conda/envs/ct-dev
+exec_prefix=${prefix}
+libdir=/public/home/jian_huang/.conda/envs/ct-dev/lib
+includedir=/public/home/jian_huang/.conda/envs/ct-dev/include
+
+Name: absl_config
+Description: Abseil config library
+URL: https://abseil.io/
+Version: 20250127
+Requires:
+Libs: -L${libdir}  
+Cflags: -I${includedir} -DNOMINMAX

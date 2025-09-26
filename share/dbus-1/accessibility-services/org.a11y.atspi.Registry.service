@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=org.a11y.atspi.Registry
+Exec=/public/home/jian_huang/.conda/envs/ct-dev/libexec/at-spi2-registryd --use-gnome-session

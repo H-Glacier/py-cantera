@@ -1,0 +1,14 @@
+prefix=/public/home/jian_huang/.conda/envs/ct-dev
+exec_prefix=/public/home/jian_huang/.conda/envs/ct-dev
+libdir=/public/home/jian_huang/.conda/envs/ct-dev/lib
+includedir=/public/home/jian_huang/.conda/envs/ct-dev/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 26.2.20
+Requires: 
+Requires.private: zlib, libpng
+Libs: -L/public/home/jian_huang/.conda/envs/ct-dev/lib -lfreetype
+Libs.private: 
+Cflags: -I${includedir}/freetype2

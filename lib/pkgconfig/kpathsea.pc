@@ -1,0 +1,11 @@
+prefix=/public/home/jian_huang/.conda/envs/ct-dev
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: kpathsea
+Description: Kpathsea filename lookup library
+Version: 6.4.0
+Libs: -L${libdir} -lkpathsea
+Cflags: -I${includedir}
+

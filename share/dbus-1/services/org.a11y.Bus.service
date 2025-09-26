@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=org.a11y.Bus
+Exec=/public/home/jian_huang/.conda/envs/ct-dev/libexec/at-spi-bus-launcher
+SystemdService=at-spi-dbus-bus.service

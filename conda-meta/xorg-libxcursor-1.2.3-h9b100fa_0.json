@@ -1,0 +1,82 @@
+{
+  "build": "h9b100fa_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=11.2.0",
+    "xorg-libx11 >=1.8.12,<2.0a0",
+    "xorg-libxfixes >=6.0.1,<7.0a0",
+    "xorg-libxrender >=0.9.12,<0.10.0a0"
+  ],
+  "extracted_package_dir": "/public/home/jian_huang/.conda/pkgs/xorg-libxcursor-1.2.3-h9b100fa_0",
+  "features": "",
+  "files": [
+    "include/X11/Xcursor/Xcursor.h",
+    "lib/libXcursor.so",
+    "lib/libXcursor.so.1",
+    "lib/libXcursor.so.1.0.2",
+    "lib/pkgconfig/xcursor.pc"
+  ],
+  "fn": "xorg-libxcursor-1.2.3-h9b100fa_0.conda",
+  "legacy_bz2_md5": "b65c56aacd6e965742eb6333dc80bd2e",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/public/home/jian_huang/.conda/pkgs/xorg-libxcursor-1.2.3-h9b100fa_0",
+    "type": 1
+  },
+  "md5": "4a9af897405dd4ed3678b7ceeb1b1fde",
+  "name": "xorg-libxcursor",
+  "package_tarball_full_path": "/public/home/jian_huang/.conda/pkgs/xorg-libxcursor-1.2.3-h9b100fa_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/X11/Xcursor/Xcursor.h",
+        "path_type": "hardlink",
+        "sha256": "6b307133f99c0867f657464ea1c4d968b5c110b8df5399ff5bc7f717487876e7",
+        "sha256_in_prefix": "6b307133f99c0867f657464ea1c4d968b5c110b8df5399ff5bc7f717487876e7",
+        "size_in_bytes": 13200
+      },
+      {
+        "_path": "lib/libXcursor.so",
+        "path_type": "softlink",
+        "sha256": "b83e4e489855d753649487e291c440f75fae141708e27d7ba9d64816dd0f26be",
+        "size_in_bytes": 59224
+      },
+      {
+        "_path": "lib/libXcursor.so.1",
+        "path_type": "softlink",
+        "sha256": "b83e4e489855d753649487e291c440f75fae141708e27d7ba9d64816dd0f26be",
+        "size_in_bytes": 59224
+      },
+      {
+        "_path": "lib/libXcursor.so.1.0.2",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/xorg-libxcursor_1746431771649/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "b83e4e489855d753649487e291c440f75fae141708e27d7ba9d64816dd0f26be",
+        "sha256_in_prefix": "5871865688ee7769bd713f900d90993e3379e5f0479cf9aaea52601a626ba99e",
+        "size_in_bytes": 59224
+      },
+      {
+        "_path": "lib/pkgconfig/xcursor.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/xorg-libxcursor_1746431771649/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "161c12ab60e4d83c33978ef7e4eb6cf9eb6cf300abac53cd5e4e8a961f5bbaca",
+        "sha256_in_prefix": "58859fbcac2f128eecf63d775b988f1d318cf166bb6395d3cc144da55ae9b745",
+        "size_in_bytes": 810
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "07cb83e32bd5f0fb061f87bdd54ef3cc75bda623bff77b503e3b51c208052681",
+  "size": 31822,
+  "subdir": "linux-64",
+  "timestamp": 1746431799111,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/xorg-libxcursor-1.2.3-h9b100fa_0.conda",
+  "version": "1.2.3"
+}

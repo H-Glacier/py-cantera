@@ -1,0 +1,10 @@
+prefix=/public/home/jian_huang/.conda/envs/ct-dev
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libcdt
+Description: Container DataType library
+Version: 12.2.1
+Libs: -L${libdir} -lcdt
+Cflags: -I${includedir} -I${includedir}/graphviz

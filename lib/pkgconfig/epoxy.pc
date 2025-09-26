@@ -1,0 +1,14 @@
+prefix=/public/home/jian_huang/.conda/envs/ct-dev
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+epoxy_has_glx=1
+epoxy_has_egl=1
+epoxy_has_wgl=0
+
+Name: epoxy
+Description: GL dispatch library
+Version: 1.5.4
+Libs: -L${libdir} -lepoxy
+Libs.private: -ldl
+Cflags: -I${includedir}

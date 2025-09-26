@@ -1,0 +1,36 @@
+{
+  "build": "py312h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "nbconvert-core 7.16.6 py312h06a4308_0",
+    "pandoc",
+    "python >=3.12,<3.13.0a0"
+  ],
+  "extracted_package_dir": "/public/home/jian_huang/.conda/pkgs/nbconvert-pandoc-7.16.6-py312h06a4308_0",
+  "features": "",
+  "files": [],
+  "fn": "nbconvert-pandoc-7.16.6-py312h06a4308_0.conda",
+  "legacy_bz2_md5": "2871fdb75d14b93961fa84d71974d5cc",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/public/home/jian_huang/.conda/pkgs/nbconvert-pandoc-7.16.6-py312h06a4308_0",
+    "type": 1
+  },
+  "md5": "5c223ad92a958495ef682a0a46b5f3d4",
+  "name": "nbconvert-pandoc",
+  "package_tarball_full_path": "/public/home/jian_huang/.conda/pkgs/nbconvert-pandoc-7.16.6-py312h06a4308_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "6efe90ad9c90c05264a56a09db4946b8a52a2b49e908d8415fe481a06a8e33b2",
+  "size": 7678,
+  "subdir": "linux-64",
+  "timestamp": 1741185314312,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/nbconvert-pandoc-7.16.6-py312h06a4308_0.conda",
+  "version": "7.16.6"
+}

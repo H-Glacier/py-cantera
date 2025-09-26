@@ -1,0 +1,12 @@
+prefix=/public/home/jian_huang/.conda/envs/ct-dev
+exec_prefix=${prefix}
+libdir=/public/home/jian_huang/.conda/envs/ct-dev/lib
+includedir=/public/home/jian_huang/.conda/envs/ct-dev/include
+
+Name: absl_vlog_is_on
+Description: Abseil vlog_is_on library
+URL: https://abseil.io/
+Version: 20250127
+Requires: absl_absl_vlog_is_on = 20250127
+Libs: -L${libdir}  
+Cflags: -I${includedir} -DNOMINMAX

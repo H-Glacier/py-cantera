@@ -1,0 +1,80 @@
+{
+  "build": "h9b100fa_2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=11.2.0",
+    "xorg-libx11 >=1.8.12,<2.0a0",
+    "xorg-libxfixes >=6.0.1,<7.0a0",
+    "xorg-xorgproto >=2024.1,<2025.0a0"
+  ],
+  "extracted_package_dir": "/public/home/jian_huang/.conda/pkgs/xorg-libxcomposite-0.4.6-h9b100fa_2",
+  "features": "",
+  "files": [
+    "include/X11/extensions/Xcomposite.h",
+    "lib/libXcomposite.so",
+    "lib/libXcomposite.so.1",
+    "lib/libXcomposite.so.1.0.0",
+    "lib/pkgconfig/xcomposite.pc"
+  ],
+  "fn": "xorg-libxcomposite-0.4.6-h9b100fa_2.conda",
+  "legacy_bz2_md5": "dea014f7b0dce98abea3a1b7810bfd22",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/public/home/jian_huang/.conda/pkgs/xorg-libxcomposite-0.4.6-h9b100fa_2",
+    "type": 1
+  },
+  "md5": "938e6de061c43be11c5384b0cd781089",
+  "name": "xorg-libxcomposite",
+  "package_tarball_full_path": "/public/home/jian_huang/.conda/pkgs/xorg-libxcomposite-0.4.6-h9b100fa_2.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/X11/extensions/Xcomposite.h",
+        "path_type": "hardlink",
+        "sha256": "f617e9b88ff589a8b658ce011095fce4a08392d08def40596b24cef63cec9253",
+        "sha256_in_prefix": "f617e9b88ff589a8b658ce011095fce4a08392d08def40596b24cef63cec9253",
+        "size_in_bytes": 3835
+      },
+      {
+        "_path": "lib/libXcomposite.so",
+        "path_type": "softlink",
+        "sha256": "26808961957809671737eb51a9ce3b40fddb0ea5ef9988f8bfa366d205ffe1c4",
+        "size_in_bytes": 16432
+      },
+      {
+        "_path": "lib/libXcomposite.so.1",
+        "path_type": "softlink",
+        "sha256": "26808961957809671737eb51a9ce3b40fddb0ea5ef9988f8bfa366d205ffe1c4",
+        "size_in_bytes": 16432
+      },
+      {
+        "_path": "lib/libXcomposite.so.1.0.0",
+        "path_type": "hardlink",
+        "sha256": "26808961957809671737eb51a9ce3b40fddb0ea5ef9988f8bfa366d205ffe1c4",
+        "sha256_in_prefix": "26808961957809671737eb51a9ce3b40fddb0ea5ef9988f8bfa366d205ffe1c4",
+        "size_in_bytes": 16432
+      },
+      {
+        "_path": "lib/pkgconfig/xcomposite.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/xorg-libxcomposite_1746431754961/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "a8e3282ceabd38ca7b20843733b04eb0bb5aa91c11f78fa724743525c6e3f362",
+        "sha256_in_prefix": "609c21449d54cd36fecb6624ca2dcf47a186c8a72b0e6ba211a4fe42ba7f7f7c",
+        "size_in_bytes": 539
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "cadcaff74a2efcfbd2fd738b433fc830f0d57ed3f3af16502c9417aea3917c2f",
+  "size": 12563,
+  "subdir": "linux-64",
+  "timestamp": 1746431781823,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/xorg-libxcomposite-0.4.6-h9b100fa_2.conda",
+  "version": "0.4.6"
+}

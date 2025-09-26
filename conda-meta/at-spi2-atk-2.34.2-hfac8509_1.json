@@ -1,0 +1,97 @@
+{
+  "build": "hfac8509_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "at-spi2-core >=2.36.0,<2.37.0a0",
+    "atk-1.0 >=2.36.0",
+    "dbus >=1.13.18,<2.0a0",
+    "libgcc-ng >=11.2.0",
+    "libglib >=2.78.4,<3.0a0"
+  ],
+  "extracted_package_dir": "/public/home/jian_huang/.conda/pkgs/at-spi2-atk-2.34.2-hfac8509_1",
+  "features": "",
+  "files": [
+    "include/at-spi2-atk/2.0/atk-bridge.h",
+    "lib/gnome-settings-daemon-3.0/gtk-modules/at-spi2-atk.desktop",
+    "lib/gtk-2.0/modules/libatk-bridge.so",
+    "lib/libatk-bridge-2.0.so",
+    "lib/libatk-bridge-2.0.so.0",
+    "lib/libatk-bridge-2.0.so.0.0.0",
+    "lib/pkgconfig/atk-bridge-2.0.pc"
+  ],
+  "fn": "at-spi2-atk-2.34.2-hfac8509_1.conda",
+  "legacy_bz2_md5": "2d45b52c50a05cd71cc388b58cc946d1",
+  "license": "LGPL-2.1-or-later",
+  "license_family": "LGPL",
+  "link": {
+    "source": "/public/home/jian_huang/.conda/pkgs/at-spi2-atk-2.34.2-hfac8509_1",
+    "type": 1
+  },
+  "md5": "8aa520b9e665d688afc5d29eb3bc687f",
+  "name": "at-spi2-atk",
+  "package_tarball_full_path": "/public/home/jian_huang/.conda/pkgs/at-spi2-atk-2.34.2-hfac8509_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/at-spi2-atk/2.0/atk-bridge.h",
+        "path_type": "hardlink",
+        "sha256": "2b6a0c00d8c18d16834eb0028826d2b6e8ce9fce38638b41b6cdf69d339b3abe",
+        "sha256_in_prefix": "2b6a0c00d8c18d16834eb0028826d2b6e8ce9fce38638b41b6cdf69d339b3abe",
+        "size_in_bytes": 1302
+      },
+      {
+        "_path": "lib/gnome-settings-daemon-3.0/gtk-modules/at-spi2-atk.desktop",
+        "path_type": "hardlink",
+        "sha256": "7865c78ad2c6116b8ac43abe8df30738d87c3a1917e94af52c68afcb0ae23bcc",
+        "sha256_in_prefix": "7865c78ad2c6116b8ac43abe8df30738d87c3a1917e94af52c68afcb0ae23bcc",
+        "size_in_bytes": 213
+      },
+      {
+        "_path": "lib/gtk-2.0/modules/libatk-bridge.so",
+        "path_type": "hardlink",
+        "sha256": "4045b3765eb5b48ecf6d5293a4899cb2911fd6669df68895504d764455e550fa",
+        "sha256_in_prefix": "4045b3765eb5b48ecf6d5293a4899cb2911fd6669df68895504d764455e550fa",
+        "size_in_bytes": 18296
+      },
+      {
+        "_path": "lib/libatk-bridge-2.0.so",
+        "path_type": "softlink",
+        "sha256": "e3947029853a4db96766bfc4aea7e17542d287f4f30c07f1464bf527eb3e685d",
+        "size_in_bytes": 804032
+      },
+      {
+        "_path": "lib/libatk-bridge-2.0.so.0",
+        "path_type": "softlink",
+        "sha256": "e3947029853a4db96766bfc4aea7e17542d287f4f30c07f1464bf527eb3e685d",
+        "size_in_bytes": 804032
+      },
+      {
+        "_path": "lib/libatk-bridge-2.0.so.0.0.0",
+        "path_type": "hardlink",
+        "sha256": "e3947029853a4db96766bfc4aea7e17542d287f4f30c07f1464bf527eb3e685d",
+        "sha256_in_prefix": "e3947029853a4db96766bfc4aea7e17542d287f4f30c07f1464bf527eb3e685d",
+        "size_in_bytes": 804032
+      },
+      {
+        "_path": "lib/pkgconfig/atk-bridge-2.0.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/at-spi2-atk_1748850637568/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "5ef7c8354aec09d75a79b4d364bb78fc8066315f9849eb871c0269621ad07b49",
+        "sha256_in_prefix": "a11e6204f012d1011f8216c2f5fd48b7f25ef7acb0a54fcd815a50314dd7f722",
+        "size_in_bytes": 592
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "642bc409dcfc3f88fcda567529a34bce899e8ed2cb26e211077d58b9854161af",
+  "size": 296201,
+  "subdir": "linux-64",
+  "timestamp": 1748850675747,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/at-spi2-atk-2.34.2-hfac8509_1.conda",
+  "version": "2.34.2"
+}

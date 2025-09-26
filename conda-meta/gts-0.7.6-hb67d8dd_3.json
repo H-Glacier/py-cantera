@@ -1,0 +1,185 @@
+{
+  "build": "hb67d8dd_3",
+  "build_number": 3,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "glib >=2.69.1,<3.0a0",
+    "libgcc-ng >=7.5.0",
+    "libstdcxx-ng >=7.5.0"
+  ],
+  "extracted_package_dir": "/public/home/jian_huang/.conda/pkgs/gts-0.7.6-hb67d8dd_3",
+  "features": "",
+  "files": [
+    "bin/delaunay",
+    "bin/gts-config",
+    "bin/gts2dxf",
+    "bin/gts2oogl",
+    "bin/gts2stl",
+    "bin/gtscheck",
+    "bin/gtscompare",
+    "bin/gtstemplate",
+    "bin/stl2gts",
+    "bin/transform",
+    "include/gts.h",
+    "include/gtsconfig.h",
+    "lib/libgts-0.7.so.5",
+    "lib/libgts-0.7.so.5.0.1",
+    "lib/libgts.a",
+    "lib/libgts.so",
+    "lib/pkgconfig/gts.pc",
+    "share/aclocal/gts.m4"
+  ],
+  "fn": "gts-0.7.6-hb67d8dd_3.conda",
+  "legacy_bz2_md5": "7959ca29b7f34b7f2164884b7dbc2d6d",
+  "license": "LGPL-2.0-or-later",
+  "license_family": "LGPL",
+  "link": {
+    "source": "/public/home/jian_huang/.conda/pkgs/gts-0.7.6-hb67d8dd_3",
+    "type": 1
+  },
+  "md5": "c1435d3380fbe5a7ce7b7a872cc14ce0",
+  "name": "gts",
+  "package_tarball_full_path": "/public/home/jian_huang/.conda/pkgs/gts-0.7.6-hb67d8dd_3.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/delaunay",
+        "path_type": "hardlink",
+        "sha256": "bfa2ef697fb909ab789c0134c1cfd617fd1895c74e076d2b449dd88ddffec9ae",
+        "sha256_in_prefix": "bfa2ef697fb909ab789c0134c1cfd617fd1895c74e076d2b449dd88ddffec9ae",
+        "size_in_bytes": 32632
+      },
+      {
+        "_path": "bin/gts-config",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/gts_1648045383683/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "83e413705595821fcde2bcc46b6de3d631bfe85841bbbd7c364eb573b1b50a88",
+        "sha256_in_prefix": "a1d410e56e53364f31ba59bb982d6ad2cc4156b546ea8753f57ff4dfb27d4a31",
+        "size_in_bytes": 6469
+      },
+      {
+        "_path": "bin/gts2dxf",
+        "path_type": "hardlink",
+        "sha256": "16fe9186e60caa22996380db6605e5655f61e35db58f5addb71f904308bc18ea",
+        "sha256_in_prefix": "16fe9186e60caa22996380db6605e5655f61e35db58f5addb71f904308bc18ea",
+        "size_in_bytes": 17424
+      },
+      {
+        "_path": "bin/gts2oogl",
+        "path_type": "hardlink",
+        "sha256": "0e026edc636dea80453241a7a74445cde04bc185cd20e65a959fcc376a4ad648",
+        "sha256_in_prefix": "0e026edc636dea80453241a7a74445cde04bc185cd20e65a959fcc376a4ad648",
+        "size_in_bytes": 38056
+      },
+      {
+        "_path": "bin/gts2stl",
+        "path_type": "hardlink",
+        "sha256": "4ba6e4c0e0d3c476d9aa152fa002bcc3706af25dc736d62785c1db79c0fca05a",
+        "sha256_in_prefix": "4ba6e4c0e0d3c476d9aa152fa002bcc3706af25dc736d62785c1db79c0fca05a",
+        "size_in_bytes": 17680
+      },
+      {
+        "_path": "bin/gtscheck",
+        "path_type": "hardlink",
+        "sha256": "4a4c01494f21307908e219e45f47864c0bcd4604017f3956505f5f7d8adcd2c0",
+        "sha256_in_prefix": "4a4c01494f21307908e219e45f47864c0bcd4604017f3956505f5f7d8adcd2c0",
+        "size_in_bytes": 17488
+      },
+      {
+        "_path": "bin/gtscompare",
+        "path_type": "hardlink",
+        "sha256": "8adc30ea9ae95a113ef86487f6bc84d130c0f16ae047a396888debae01b344cd",
+        "sha256_in_prefix": "8adc30ea9ae95a113ef86487f6bc84d130c0f16ae047a396888debae01b344cd",
+        "size_in_bytes": 31720
+      },
+      {
+        "_path": "bin/gtstemplate",
+        "path_type": "hardlink",
+        "sha256": "26dd43a18a72792030e024ad38f31278a91871820e1b041a096ac3eeceea60e2",
+        "sha256_in_prefix": "26dd43a18a72792030e024ad38f31278a91871820e1b041a096ac3eeceea60e2",
+        "size_in_bytes": 6110
+      },
+      {
+        "_path": "bin/stl2gts",
+        "path_type": "hardlink",
+        "sha256": "6de38e4b675e215d40f6ae64bfcf339262359d107aadb879aa4afc294b5d54aa",
+        "sha256_in_prefix": "6de38e4b675e215d40f6ae64bfcf339262359d107aadb879aa4afc294b5d54aa",
+        "size_in_bytes": 22648
+      },
+      {
+        "_path": "bin/transform",
+        "path_type": "hardlink",
+        "sha256": "5daa3426823054ea908ca62fe675a6377e1c22caf11a81cfec996eccc6affacb",
+        "sha256_in_prefix": "5daa3426823054ea908ca62fe675a6377e1c22caf11a81cfec996eccc6affacb",
+        "size_in_bytes": 22392
+      },
+      {
+        "_path": "include/gts.h",
+        "path_type": "hardlink",
+        "sha256": "f55999734b4700797dbd0b6f983434970d07bf562468f5d09c8476aa413324d0",
+        "sha256_in_prefix": "f55999734b4700797dbd0b6f983434970d07bf562468f5d09c8476aa413324d0",
+        "size_in_bytes": 83365
+      },
+      {
+        "_path": "include/gtsconfig.h",
+        "path_type": "hardlink",
+        "sha256": "ae362de7d9bb4628843c381389b990549dd003bcb09309a350cbf0522182d1cf",
+        "sha256_in_prefix": "ae362de7d9bb4628843c381389b990549dd003bcb09309a350cbf0522182d1cf",
+        "size_in_bytes": 234
+      },
+      {
+        "_path": "lib/libgts-0.7.so.5",
+        "path_type": "softlink",
+        "sha256": "96e20b080dbc84e812ca5e868ea8fd3b1f34bdf20a36dd387c6603c9262977b6",
+        "size_in_bytes": 454984
+      },
+      {
+        "_path": "lib/libgts-0.7.so.5.0.1",
+        "path_type": "hardlink",
+        "sha256": "96e20b080dbc84e812ca5e868ea8fd3b1f34bdf20a36dd387c6603c9262977b6",
+        "sha256_in_prefix": "96e20b080dbc84e812ca5e868ea8fd3b1f34bdf20a36dd387c6603c9262977b6",
+        "size_in_bytes": 454984
+      },
+      {
+        "_path": "lib/libgts.a",
+        "path_type": "hardlink",
+        "sha256": "ddde2c4b3ddd6e99d34fb982900546d5c653ef29cd0862da1e7c17384a90f6d9",
+        "sha256_in_prefix": "ddde2c4b3ddd6e99d34fb982900546d5c653ef29cd0862da1e7c17384a90f6d9",
+        "size_in_bytes": 899850
+      },
+      {
+        "_path": "lib/libgts.so",
+        "path_type": "softlink",
+        "sha256": "96e20b080dbc84e812ca5e868ea8fd3b1f34bdf20a36dd387c6603c9262977b6",
+        "size_in_bytes": 454984
+      },
+      {
+        "_path": "lib/pkgconfig/gts.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/gts_1648045383683/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "9a45e78bfa380243ddb33aa35e6123192cc7f1dc54a06e5e19cfb3b17bc18e27",
+        "sha256_in_prefix": "a82856b3a75791445397b4011f2185a6dd9406c566a22bbacb7a73ad2716e4b0",
+        "size_in_bytes": 504
+      },
+      {
+        "_path": "share/aclocal/gts.m4",
+        "path_type": "hardlink",
+        "sha256": "7f1a6667867aa376816e64b218fbb75053d126bca5318388529688b76a78e714",
+        "sha256_in_prefix": "7f1a6667867aa376816e64b218fbb75053d126bca5318388529688b76a78e714",
+        "size_in_bytes": 8064
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "566140722f660b28e7ea3c10e9139a58ec7165bb86134d99880ec4864c83afc5",
+  "size": 316946,
+  "subdir": "linux-64",
+  "timestamp": 1648045431763,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/gts-0.7.6-hb67d8dd_3.conda",
+  "version": "0.7.6"
+}

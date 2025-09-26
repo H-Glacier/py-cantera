@@ -1,0 +1,10 @@
+prefix=/public/home/jian_huang/.conda/envs/ct-dev
+exec_prefix=/public/home/jian_huang/.conda/envs/ct-dev/bin
+libdir=/public/home/jian_huang/.conda/envs/ct-dev/lib
+includedir=/public/home/jian_huang/.conda/envs/ct-dev/include
+
+Name: libglog
+Description: Google Log (glog) C++ logging framework
+Version: 0.5.0
+Libs: -L${libdir} -lglog
+Cflags: -I${includedir}

@@ -1,0 +1,12 @@
+prefix=/public/home/jian_huang/.conda/envs/ct-dev
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Lua for LuaTeX
+Description: Lua 5.3, modified for use with LuaTeX
+Version: 5.3.6
+Libs: -L${libdir} -ltexlua53
+Libs.private: -ldl -lm 
+Cflags: -I${includedir}/texlua53
+

@@ -1,0 +1,43 @@
+{
+  "build": "h06a4308_2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/public/home/jian_huang/.conda/pkgs/hicolor-icon-theme-0.17-h06a4308_2",
+  "features": "",
+  "files": [
+    "share/icons/hicolor/index.theme"
+  ],
+  "fn": "hicolor-icon-theme-0.17-h06a4308_2.conda",
+  "legacy_bz2_md5": "40198ee07bc87c113ad049d82f20c5c3",
+  "license": "GPL-2.0-or-later",
+  "license_family": "GPL",
+  "link": {
+    "source": "/public/home/jian_huang/.conda/pkgs/hicolor-icon-theme-0.17-h06a4308_2",
+    "type": 1
+  },
+  "md5": "9896258d57ed1beecb0d6cdbefa3ad5a",
+  "name": "hicolor-icon-theme",
+  "package_tarball_full_path": "/public/home/jian_huang/.conda/pkgs/hicolor-icon-theme-0.17-h06a4308_2.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "share/icons/hicolor/index.theme",
+        "path_type": "hardlink",
+        "sha256": "a02db5e1b203d981701481bbef8b6fae1c576baf34927eecbc0feae0d2cb9bc5",
+        "sha256_in_prefix": "a02db5e1b203d981701481bbef8b6fae1c576baf34927eecbc0feae0d2cb9bc5",
+        "size_in_bytes": 55507
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e02d10d013a58add0b21a56a61c9cec73f4c4e5121e295a730167281254867cc",
+  "size": 16938,
+  "subdir": "linux-64",
+  "timestamp": 1632405199912,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/hicolor-icon-theme-0.17-h06a4308_2.conda",
+  "version": "0.17"
+}

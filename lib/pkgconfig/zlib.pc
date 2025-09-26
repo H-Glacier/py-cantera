@@ -1,0 +1,13 @@
+prefix=/public/home/jian_huang/.conda/envs/ct-dev
+exec_prefix=/public/home/jian_huang/.conda/envs/ct-dev
+libdir=/public/home/jian_huang/.conda/envs/ct-dev/lib
+sharedlibdir=/public/home/jian_huang/.conda/envs/ct-dev/lib
+includedir=/public/home/jian_huang/.conda/envs/ct-dev/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

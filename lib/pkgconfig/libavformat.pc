@@ -1,0 +1,14 @@
+prefix=/public/home/jian_huang/.conda/envs/ct-dev
+exec_prefix=${prefix}
+libdir=/public/home/jian_huang/.conda/envs/ct-dev/lib
+includedir=/public/home/jian_huang/.conda/envs/ct-dev/include
+
+Name: libavformat
+Description: FFmpeg container format library
+Version: 60.16.100
+Requires: 
+Requires.private: libavcodec >= 60.31.102, libswresample >= 4.12.100, libavutil >= 58.29.100
+Conflicts:
+Libs: -L${libdir}  -lavformat 
+Libs.private: -lm -latomic -L/public/home/jian_huang/.conda/envs/ct-dev/lib -lxml2 -lbz2 -L/public/home/jian_huang/.conda/envs/ct-dev/lib -lz -L/public/home/jian_huang/.conda/envs/ct-dev/lib -lssl -lcrypto
+Cflags: -I${includedir}

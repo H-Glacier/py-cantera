@@ -1,0 +1,13 @@
+prefix=/public/home/jian_huang/.conda/envs/ct-dev
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+modules=1
+
+Name: libXML
+Version: 2.13.8
+Description: libXML library version2.
+Requires.private:  icu-i18n
+Libs: -L${libdir} -lxml2 
+Libs.private:  -L/public/home/jian_huang/.conda/envs/ct-dev/lib -lz -L/public/home/jian_huang/.conda/envs/ct-dev/lib -llzma  -L/public/home/jian_huang/.conda/envs/ct-dev/lib  -lm   
+Cflags: -I${includedir}/libxml2 -I/public/home/jian_huang/.conda/envs/ct-dev/include 
