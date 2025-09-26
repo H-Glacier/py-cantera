@@ -1,3 +1,4 @@
+
 import cantera as ct
 import numpy as np
 from read_input import *
@@ -47,7 +48,7 @@ f.oxidizer_inlet.mdot = parameter_dict['oxidizer_mdot'] #oxidizer inlet
 f.oxidizer_inlet.X = air
 f.oxidizer_inlet.T = parameter_dict['oxidizer_temperature']
 
-f.set_refine_criteria(ratio=3.0, slope=0.1, curve=0.2, prune=0.0) #refinement settings
+f.set_refine_criteria(ratio=2, slope=0.05, curve=0.1, prune=0.0) #refinement settings
 
 temperature_limit_extinction = 1500 #set extinction temperature
 
@@ -67,17 +68,46 @@ arguments = sys.argv
 step = int(arguments[1])
 if step == 0:
     print('strain rate iteration', 0)
-    f = ct.CounterflowDiffusionFlame(gas_RK, initial_grid)
-    f.transport_model = parameter_dict['transport_model']
-    f.P = parameter_dict['operating_pressure']
-    f.fuel_inlet.X = fuel
-    f.fuel_inlet.T = parameter_dict['fuel_temperature']
-    f.oxidizer_inlet.X = air
-    f.oxidizer_inlet.T = parameter_dict['oxidizer_temperature']
-    f.fuel_inlet.mdot = fuel_inlet_mdot
-    f.oxidizer_inlet.mdot = oxidizer_inlet_mdot
-    f.set_refine_criteria(ratio=3.0, slope=0.1, curve=0.2, prune=0.0)
-    f.solve(loglevel=1, auto=True)
+    initial_guess_file = 'initial_guess.yaml'
+    if os.path.exists(initial_guess_file):
+        print("--- Step 0: Loaded initial guess successfully ---")
+        f = ct.CounterflowDiffusionFlame(gas_RK, initial_grid)
+        f.restore(initial_guess_file, name='diff1D')
+        f.transport_model = parameter_dict['transport_model']
+        f.P = parameter_dict['operating_pressure']
+        f.fuel_inlet.X = fuel
+        f.fuel_inlet.T = parameter_dict['fuel_temperature']
+        f.oxidizer_inlet.X = air
+        f.oxidizer_inlet.T = parameter_dict['oxidizer_temperature']
+        f.fuel_inlet.mdot = fuel_inlet_mdot
+        f.oxidizer_inlet.mdot = oxidizer_inlet_mdot
+        solver = f.get_steady_solver()
+        solver.time_control.max_time_steps = 2000  # Set the maximum time steps
+        solver.time_control.max_dt = 10.0          # Optional: Set max time step
+        solver.time_control.dt_max_factor = 20.0   # Optional: Set max step growth
+        #f.time_control.max_time_steps = 2000
+        f.set_refine_criteria(ratio=2, slope=0.05, curve=0.1, prune=0.0)
+        f.set_max_points(2000)
+        f.solve(loglevel=1, auto=True)
+    else:
+        print("--- Step 0: Loaded initial guess failed ---")
+        f = ct.CounterflowDiffusionFlame(gas_RK, initial_grid)
+        f.transport_model = parameter_dict['transport_model']
+        f.P = parameter_dict['operating_pressure']
+        f.fuel_inlet.X = fuel
+        f.fuel_inlet.T = parameter_dict['fuel_temperature']
+        f.oxidizer_inlet.X = air
+        f.oxidizer_inlet.T = parameter_dict['oxidizer_temperature']
+        f.fuel_inlet.mdot = fuel_inlet_mdot
+        f.oxidizer_inlet.mdot = oxidizer_inlet_mdot
+        solver = f.get_steady_solver()
+        solver.time_control.max_time_steps = 2000  # Set the maximum time steps
+        solver.time_control.max_dt = 10.0          # Optional: Set max time step
+        solver.time_control.dt_max_factor = 20.0   # Optional: Set max step growth
+        #f.time_control.max_time_steps = 2000
+        f.set_refine_criteria(ratio=2, slope=0.05, curve=0.1, prune=0.0)
+        f.set_max_points(2000)
+        f.solve(loglevel=1, auto=True)
     print((f.velocity[0]-f.velocity[-1])/initial_width) #mean strain rate
     file_name = '/strain_loop_' + format(0, '02d') + '.yaml'
     mkdir(data_directory)
@@ -107,8 +137,14 @@ else:
     f.oxidizer_inlet.T = parameter_dict['oxidizer_temperature']
     f.fuel_inlet.mdot = fuel_inlet_mdot
     f.oxidizer_inlet.mdot = oxidizer_inlet_mdot
-
-    f.set_refine_criteria(ratio=3.0, slope=0.1, curve=0.2, prune=0.0)
+    solver = f.get_steady_solver()
+    solver.time_control.max_time_steps = 2000  # Set the maximum time steps
+    solver.time_control.max_dt = 10.0          # Optional: Set max time step
+    solver.time_control.dt_max_factor = 20.0   # Optional: Set max step growth
+    #f.time_control.max_time_steps = 2000
+    f.set_max_points(2000)
+    f.set_refine_criteria(ratio=2, slope=0.05, curve=0.1, prune=0.0)
+    
     f.solve(loglevel=1, auto=True)
     print((f.velocity[0]-f.velocity[-1])/initial_width)
     file_name = '/strain_loop_' + format(step, '02d') + '.yaml'
@@ -117,3 +153,4 @@ else:
         ', reaction mechanism ' + reaction_mechanism)
     print("Solved on {:d} points.".format(len(f.T)))
     print("T max {:.0f} K.".format(max(f.T)))
+
