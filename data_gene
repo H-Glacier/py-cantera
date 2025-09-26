@@ -64,10 +64,21 @@ width =  initial_width
 
 arguments = sys.argv
 
+# optional init file: arguments[2] if provided
+init_from_file = None
+if len(arguments) > 2 and arguments[2] not in (None, "", "none", "None"):
+	init_from_file = arguments[2]
+
 step = int(arguments[1])
 if step == 0:
     print('strain rate iteration', 0)
     f = ct.CounterflowDiffusionFlame(gas_RK, initial_grid)
+    # try to restore from previous YAML if provided
+    if init_from_file is not None and os.path.exists(init_from_file):
+		try:
+			f.restore(init_from_file, name='diff1D', loglevel=1)
+		except Exception as e:
+			print(f"Warning: failed to restore from {init_from_file}: {e}")
     f.transport_model = parameter_dict['transport_model']
     f.P = parameter_dict['operating_pressure']
     f.fuel_inlet.X = fuel
@@ -98,6 +109,12 @@ else:
     print('strain rate iteration', step)
     initial_grid=np.linspace(0,width,100)
     f = ct.CounterflowDiffusionFlame(gas_RK, initial_grid)
+    # try to restore from previous YAML if provided
+    if init_from_file is not None and os.path.exists(init_from_file):
+		try:
+			f.restore(init_from_file, name='diff1D', loglevel=1)
+		except Exception as e:
+			print(f"Warning: failed to restore from {init_from_file}: {e}")
     f.transport_model = parameter_dict['transport_model']
     #f.transport_model = 'high-pressure-Chung'
     f.P = parameter_dict['operating_pressure']
