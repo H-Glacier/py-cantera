@@ -81,11 +81,7 @@ if step == 0:
         f.oxidizer_inlet.T = parameter_dict['oxidizer_temperature']
         f.fuel_inlet.mdot = fuel_inlet_mdot
         f.oxidizer_inlet.mdot = oxidizer_inlet_mdot
-        solver = f.get_steady_solver()
-        solver.time_control.max_time_steps = 2000  # Set the maximum time steps
-        solver.time_control.max_dt = 10.0          # Optional: Set max time step
-        solver.time_control.dt_max_factor = 20.0   # Optional: Set max step growth
-        #f.time_control.max_time_steps = 2000
+        f.set_time_step(1e-5, [2000])
         f.set_refine_criteria(ratio=2, slope=0.05, curve=0.1, prune=0.0)
         f.set_max_points(2000)
         f.solve(loglevel=1, auto=True)
@@ -100,11 +96,7 @@ if step == 0:
         f.oxidizer_inlet.T = parameter_dict['oxidizer_temperature']
         f.fuel_inlet.mdot = fuel_inlet_mdot
         f.oxidizer_inlet.mdot = oxidizer_inlet_mdot
-        solver = f.get_steady_solver()
-        solver.time_control.max_time_steps = 2000  # Set the maximum time steps
-        solver.time_control.max_dt = 10.0          # Optional: Set max time step
-        solver.time_control.dt_max_factor = 20.0   # Optional: Set max step growth
-        #f.time_control.max_time_steps = 2000
+        f.set_time_step(1e-5, [2000])
         f.set_refine_criteria(ratio=2, slope=0.05, curve=0.1, prune=0.0)
         f.set_max_points(2000)
         f.solve(loglevel=1, auto=True)
@@ -137,11 +129,7 @@ else:
     f.oxidizer_inlet.T = parameter_dict['oxidizer_temperature']
     f.fuel_inlet.mdot = fuel_inlet_mdot
     f.oxidizer_inlet.mdot = oxidizer_inlet_mdot
-    solver = f.get_steady_solver()
-    solver.time_control.max_time_steps = 2000  # Set the maximum time steps
-    solver.time_control.max_dt = 10.0          # Optional: Set max time step
-    solver.time_control.dt_max_factor = 20.0   # Optional: Set max step growth
-    #f.time_control.max_time_steps = 2000
+    f.set_time_step(1e-5, [2000])
     f.set_max_points(2000)
     f.set_refine_criteria(ratio=2, slope=0.05, curve=0.1, prune=0.0)
     
