@@ -67,17 +67,32 @@ arguments = sys.argv
 step = int(arguments[1])
 if step == 0:
     print('strain rate iteration', 0)
-    f = ct.CounterflowDiffusionFlame(gas_RK, initial_grid)
-    f.transport_model = parameter_dict['transport_model']
-    f.P = parameter_dict['operating_pressure']
-    f.fuel_inlet.X = fuel
-    f.fuel_inlet.T = parameter_dict['fuel_temperature']
-    f.oxidizer_inlet.X = air
-    f.oxidizer_inlet.T = parameter_dict['oxidizer_temperature']
-    f.fuel_inlet.mdot = fuel_inlet_mdot
-    f.oxidizer_inlet.mdot = oxidizer_inlet_mdot
-    f.set_refine_criteria(ratio=3.0, slope=0.1, curve=0.2, prune=0.0)
-    f.solve(loglevel=1, auto=True)
+    initial_guess_file = 'initial_guess.yaml'
+    if os.path.exists(initial_guess_file):
+        f = ct.CounterflowDiffusionFlame(gas_RK, initial_grid)
+        f.restore(initial_guess_file, name='diff1D')
+        f.transport_model = parameter_dict['transport_model']
+        f.P = parameter_dict['operating_pressure']
+        f.fuel_inlet.X = fuel
+        f.fuel_inlet.T = parameter_dict['fuel_temperature']
+        f.oxidizer_inlet.X = air
+        f.oxidizer_inlet.T = parameter_dict['oxidizer_temperature']
+        f.fuel_inlet.mdot = fuel_inlet_mdot
+        f.oxidizer_inlet.mdot = oxidizer_inlet_mdot
+        f.set_refine_criteria(ratio=3.0, slope=0.1, curve=0.2, prune=0.0)
+        f.solve(loglevel=1, auto=True)
+    else:
+        f = ct.CounterflowDiffusionFlame(gas_RK, initial_grid)
+        f.transport_model = parameter_dict['transport_model']
+        f.P = parameter_dict['operating_pressure']
+        f.fuel_inlet.X = fuel
+        f.fuel_inlet.T = parameter_dict['fuel_temperature']
+        f.oxidizer_inlet.X = air
+        f.oxidizer_inlet.T = parameter_dict['oxidizer_temperature']
+        f.fuel_inlet.mdot = fuel_inlet_mdot
+        f.oxidizer_inlet.mdot = oxidizer_inlet_mdot
+        f.set_refine_criteria(ratio=3.0, slope=0.1, curve=0.2, prune=0.0)
+        f.solve(loglevel=1, auto=True)
     print((f.velocity[0]-f.velocity[-1])/initial_width) #mean strain rate
     file_name = '/strain_loop_' + format(0, '02d') + '.yaml'
     mkdir(data_directory)
