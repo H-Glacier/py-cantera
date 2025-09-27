@@ -81,7 +81,7 @@ if step == 0:
         f.oxidizer_inlet.T = parameter_dict['oxidizer_temperature']
         f.fuel_inlet.mdot = fuel_inlet_mdot
         f.oxidizer_inlet.mdot = oxidizer_inlet_mdot
-        f.set_time_step(1e-5, [10, 20, 50, 100, 200, 500])
+        f.set_time_step(1e-5, [10, 20, 50, 100, 200, 500, 1000, 2000])
         f.set_refine_criteria(ratio=2, slope=0.05, curve=0.1, prune=0.0)
         f.set_max_points(2000)
         f.set_max_grid_points('flow', 2000)
@@ -100,7 +100,7 @@ if step == 0:
         f.oxidizer_inlet.T = parameter_dict['oxidizer_temperature']
         f.fuel_inlet.mdot = fuel_inlet_mdot
         f.oxidizer_inlet.mdot = oxidizer_inlet_mdot
-        f.set_time_step(1e-5, [10, 20, 50, 100, 200, 500])
+        f.set_time_step(1e-5, [10, 20, 50, 100, 200, 500, 1000, 2000])
         f.set_refine_criteria(ratio=2, slope=0.05, curve=0.1, prune=0.0)
         f.set_max_points(2000)
         f.set_max_grid_points('flow', 2000)
@@ -137,7 +137,7 @@ else:
     f.oxidizer_inlet.T = parameter_dict['oxidizer_temperature']
     f.fuel_inlet.mdot = fuel_inlet_mdot
     f.oxidizer_inlet.mdot = oxidizer_inlet_mdot
-    f.set_time_step(1e-5, [10, 20, 50, 100, 200, 500])
+    f.set_time_step(1e-5, [10, 20, 50, 100, 200, 500, 1000, 2000])
     f.set_max_points(2000)
     f.set_max_grid_points('flow', 2000)
     f.set_refine_criteria(ratio=2, slope=0.05, curve=0.1, prune=0.0)
