@@ -81,10 +81,14 @@ if step == 0:
         f.oxidizer_inlet.T = parameter_dict['oxidizer_temperature']
         f.fuel_inlet.mdot = fuel_inlet_mdot
         f.oxidizer_inlet.mdot = oxidizer_inlet_mdot
-        f.set_time_step(1e-5, [2000])
+        f.set_time_step(1e-5, [10, 20, 50, 100, 200, 500])
         f.set_refine_criteria(ratio=2, slope=0.05, curve=0.1, prune=0.0)
         f.set_max_points(2000)
-        f.solve(loglevel=1, auto=True)
+        f.set_max_grid_points('flow', 2000)
+        f.energy_enabled = False
+        f.solve(loglevel=1, refine_grid=False, auto=False)
+        f.energy_enabled = True
+        f.solve(loglevel=1, refine_grid=True, auto=True)
     else:
         print("--- Step 0: Loaded initial guess failed ---")
         f = ct.CounterflowDiffusionFlame(gas_RK, initial_grid)
@@ -96,10 +100,14 @@ if step == 0:
         f.oxidizer_inlet.T = parameter_dict['oxidizer_temperature']
         f.fuel_inlet.mdot = fuel_inlet_mdot
         f.oxidizer_inlet.mdot = oxidizer_inlet_mdot
-        f.set_time_step(1e-5, [2000])
+        f.set_time_step(1e-5, [10, 20, 50, 100, 200, 500])
         f.set_refine_criteria(ratio=2, slope=0.05, curve=0.1, prune=0.0)
         f.set_max_points(2000)
-        f.solve(loglevel=1, auto=True)
+        f.set_max_grid_points('flow', 2000)
+        f.energy_enabled = False
+        f.solve(loglevel=1, refine_grid=False, auto=False)
+        f.energy_enabled = True
+        f.solve(loglevel=1, refine_grid=True, auto=True)
     print((f.velocity[0]-f.velocity[-1])/initial_width) #mean strain rate
     file_name = '/strain_loop_' + format(0, '02d') + '.yaml'
     mkdir(data_directory)
@@ -129,11 +137,14 @@ else:
     f.oxidizer_inlet.T = parameter_dict['oxidizer_temperature']
     f.fuel_inlet.mdot = fuel_inlet_mdot
     f.oxidizer_inlet.mdot = oxidizer_inlet_mdot
-    f.set_time_step(1e-5, [2000])
+    f.set_time_step(1e-5, [10, 20, 50, 100, 200, 500])
     f.set_max_points(2000)
+    f.set_max_grid_points('flow', 2000)
     f.set_refine_criteria(ratio=2, slope=0.05, curve=0.1, prune=0.0)
-    
-    f.solve(loglevel=1, auto=True)
+    f.energy_enabled = False
+    f.solve(loglevel=1, refine_grid=False, auto=False)
+    f.energy_enabled = True
+    f.solve(loglevel=1, refine_grid=True, auto=True)
     print((f.velocity[0]-f.velocity[-1])/initial_width)
     file_name = '/strain_loop_' + format(step, '02d') + '.yaml'
     f.save(data_directory + file_name, name='diff1D', loglevel=1,
